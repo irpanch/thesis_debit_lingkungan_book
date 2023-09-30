@@ -1,0 +1,145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Render Markdown</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body><div class="container">
+
+<table width="100%" summary="page for quarto_render {quarto}"><tr><td>quarto_render {quarto}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Render Markdown</h2>
+
+<h3>Description</h3>
+
+<p>Render the input file to the specified output format using quarto. If the
+input requires computations (e.g. for Rmd or Jupyter files) then those
+computations are performed before rendering.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+quarto_render(
+  input = NULL,
+  output_format = NULL,
+  output_file = NULL,
+  execute = TRUE,
+  execute_params = NULL,
+  execute_dir = NULL,
+  execute_daemon = NULL,
+  execute_daemon_restart = FALSE,
+  execute_debug = FALSE,
+  use_freezer = FALSE,
+  cache = NULL,
+  cache_refresh = FALSE,
+  debug = FALSE,
+  quiet = FALSE,
+  pandoc_args = NULL,
+  as_job = getOption("quarto.render_as_job", "auto")
+)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>input</code></td>
+<td>
+<p>The input file or project directory to be rendered (defaults
+to rendering the project in the current working directory).</p>
+</td></tr>
+<tr valign="top"><td><code>output_format</code></td>
+<td>
+<p>Target output format (defaults to &quot;html&quot;). The option
+<code>"all"</code> will render all formats defined within the file or project.</p>
+</td></tr>
+<tr valign="top"><td><code>output_file</code></td>
+<td>
+<p>The name of the output file. If using <code>NULL</code> then the
+output filename will be based on filename for the input file.</p>
+</td></tr>
+<tr valign="top"><td><code>execute</code></td>
+<td>
+<p>Whether to execute embedded code chunks.</p>
+</td></tr>
+<tr valign="top"><td><code>execute_params</code></td>
+<td>
+<p>A list of named parameters that override custom params
+specified within the YAML front-matter.</p>
+</td></tr>
+<tr valign="top"><td><code>execute_dir</code></td>
+<td>
+<p>The working directory in which to execute embedded code
+chunks.</p>
+</td></tr>
+<tr valign="top"><td><code>execute_daemon</code></td>
+<td>
+<p>Keep Jupyter kernel alive (defaults to 300 seconds).
+Note this option is only applicable for rendering Jupyter notebooks or
+Jupyter markdown.</p>
+</td></tr>
+<tr valign="top"><td><code>execute_daemon_restart</code></td>
+<td>
+<p>Restart keepalive Jupyter kernel before render.
+Note this option is only applicable for rendering Jupyter notebooks or
+Jupyter markdown.</p>
+</td></tr>
+<tr valign="top"><td><code>execute_debug</code></td>
+<td>
+<p>Show debug output for Jupyter kernel.</p>
+</td></tr>
+<tr valign="top"><td><code>use_freezer</code></td>
+<td>
+<p>Force use of frozen computations for an incremental
+file render.</p>
+</td></tr>
+<tr valign="top"><td><code>cache</code></td>
+<td>
+<p>Cache execution output (uses knitr cache and jupyter-cache
+respectively for Rmd and Jupyter input files).</p>
+</td></tr>
+<tr valign="top"><td><code>cache_refresh</code></td>
+<td>
+<p>Force refresh of execution cache.</p>
+</td></tr>
+<tr valign="top"><td><code>debug</code></td>
+<td>
+<p>Leave intermediate files in place after render.</p>
+</td></tr>
+<tr valign="top"><td><code>quiet</code></td>
+<td>
+<p>Suppress warning and other messages.</p>
+</td></tr>
+<tr valign="top"><td><code>pandoc_args</code></td>
+<td>
+<p>Additional command line options to pass to pandoc.</p>
+</td></tr>
+<tr valign="top"><td><code>as_job</code></td>
+<td>
+<p>Render as an RStudio background job. Default is &quot;auto&quot;,
+which will render individual documents normally and projects as
+background jobs. Use the <code>quarto.render_as_job</code> R option to control
+the default globally.</p>
+</td></tr>
+</table>
+
+
+<h3>Examples</h3>
+
+<pre>
+## Not run: 
+# Render R Markdown
+quarto_render("notebook.Rmd")
+quarto_render("notebook.Rmd", output_format = "pdf")
+
+# Render Jupyter Notebook
+quarto_render("notebook.ipynb")
+
+# Render Jupyter Markdown
+quarto_render("notebook.md")
+
+## End(Not run)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>quarto</em> version 1.3 <a href="00Index.html">Index</a>]</div>
+</div></body></html>

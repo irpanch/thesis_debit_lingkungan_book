@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Publish Quarto Documents</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body><div class="container">
+
+<table width="100%" summary="page for quarto_publish_doc {quarto}"><tr><td>quarto_publish_doc {quarto}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Publish Quarto Documents</h2>
+
+<h3>Description</h3>
+
+<p>Publish Quarto documents to Posit Connect, ShinyApps, and RPubs
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+quarto_publish_doc(
+  input,
+  name = NULL,
+  title = NULL,
+  server = NULL,
+  account = NULL,
+  render = c("local", "server", "none"),
+  metadata = list(),
+  ...
+)
+
+quarto_publish_app(
+  input = getwd(),
+  name = NULL,
+  title = NULL,
+  server = NULL,
+  account = NULL,
+  render = c("local", "server", "none"),
+  metadata = list(),
+  ...
+)
+
+quarto_publish_site(
+  input = getwd(),
+  name = NULL,
+  title = NULL,
+  server = NULL,
+  account = NULL,
+  render = c("local", "server", "none"),
+  metadata = list(),
+  ...
+)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>input</code></td>
+<td>
+<p>The input file or project directory to be published. Defaults to
+the current working directory.</p>
+</td></tr>
+<tr valign="top"><td><code>name</code></td>
+<td>
+<p>Name for publishing (names must be unique within an account).
+Defaults to the name of the <code>input</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>title</code></td>
+<td>
+<p>Free-form descriptive title of application. Optional; if
+supplied, will often be displayed in favor of the name. When deploying a new
+document, you may supply only the title to receive an auto-generated name</p>
+</td></tr>
+<tr valign="top"><td><code>account, server</code></td>
+<td>
+<p>Uniquely identify a remote server with either your
+user <code>account</code>, the <code>server</code> name, or both. If neither are supplied, and
+there are multiple options, you'll be prompted to pick one.
+</p>
+<p>Use <code><a href="../../rsconnect/help/accounts.html">accounts()</a></code> to see the full list of available options.</p>
+</td></tr>
+<tr valign="top"><td><code>render</code></td>
+<td>
+<p><code>local</code> to render locally before publishing; <code>server</code> to
+render on the server; <code>none</code> to use whatever rendered content currently
+exists locally. (defaults to <code>local</code>)</p>
+</td></tr>
+<tr valign="top"><td><code>metadata</code></td>
+<td>
+<p>Additional metadata fields to save with the deployment
+record. These fields will be returned on subsequent calls to
+<code><a href="../../rsconnect/help/deployments.html">deployments()</a></code>.</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>Named parameters to pass along to <code>rsconnect::deployApp()</code></p>
+</td></tr>
+</table>
+
+
+<h3>Examples</h3>
+
+<pre>
+## Not run: 
+library(quarto)
+quarto_publish_doc("mydoc.qmd")
+quarto_publish_app(server = "shinyapps.io")
+quarto_publish_site(server = "rstudioconnect.example.com")
+
+## End(Not run)
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>quarto</em> version 1.3 <a href="00Index.html">Index</a>]</div>
+</div></body></html>

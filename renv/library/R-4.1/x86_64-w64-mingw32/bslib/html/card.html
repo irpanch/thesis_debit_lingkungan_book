@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: A Bootstrap card component</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body><div class="container">
+
+<table width="100%" summary="page for card {bslib}"><tr><td>card {bslib}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>A Bootstrap card component</h2>
+
+<h3>Description</h3>
+
+<p>A general purpose container for grouping related UI elements together with a
+border and optional padding. To learn more about <code><a href="../../bslib/help/card.html">card()</a></code>s, see <a href="https://rstudio.github.io/bslib/articles/cards.html">this article</a>.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+card(
+  ...,
+  full_screen = FALSE,
+  height = NULL,
+  max_height = NULL,
+  min_height = NULL,
+  fill = TRUE,
+  class = NULL,
+  wrapper = card_body
+)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>Unnamed arguments can be any valid child of an <a href="../../htmltools/help/builder.html">htmltools tag</a> (which includes card items such as <code><a href="../../bslib/help/card_body.html">card_body()</a></code>.
+Named arguments become HTML attributes on returned UI element.</p>
+</td></tr>
+<tr valign="top"><td><code>full_screen</code></td>
+<td>
+<p>If <code>TRUE</code>, an icon will appear when hovering over the card
+body. Clicking the icon expands the card to fit viewport size.</p>
+</td></tr>
+<tr valign="top"><td><code>height</code></td>
+<td>
+<p>Any valid <a href="../../htmltools/help/validateCssUnit.html">CSS unit</a> (e.g.,
+<code>height="200px"</code>). Doesn't apply when a card is made <code>full_screen</code>
+(in this case, consider setting a <code>height</code> in <code><a href="../../bslib/help/card_body.html">card_body()</a></code>).</p>
+</td></tr>
+<tr valign="top"><td><code>max_height, min_height</code></td>
+<td>
+<p>Any valid <a href="../../htmltools/help/validateCssUnit.html">CSS unit</a> (e.g.,
+<code>max_height="200px"</code>). Doesn't apply when a card is made <code>full_screen</code>
+(in this case, consider setting a <code>max_height</code> in <code><a href="../../bslib/help/card_body.html">card_body()</a></code>).</p>
+</td></tr>
+<tr valign="top"><td><code>fill</code></td>
+<td>
+<p>Whether or not to allow the card to grow/shrink to fit a
+fillable container with an opinionated height (e.g., <code>page_fillable()</code>).</p>
+</td></tr>
+<tr valign="top"><td><code>class</code></td>
+<td>
+<p>Additional CSS classes for the returned UI element.</p>
+</td></tr>
+<tr valign="top"><td><code>wrapper</code></td>
+<td>
+<p>A function (which returns a UI element) to call on unnamed
+arguments in <code>...</code> which are not already card item(s) (like
+<code><a href="../../bslib/help/card_header.html">card_header()</a></code>, <code><a href="../../bslib/help/card_body.html">card_body()</a></code>, etc.). Note that non-card items are grouped
+together into one <code>wrapper</code> call (e.g. given <code>card("a", "b", card_body("c"), "d")</code>, <code>wrapper</code> would be called twice, once with <code>"a"</code> and
+<code>"b"</code> and once with <code>"d"</code>).</p>
+</td></tr>
+</table>
+
+
+<h3>Value</h3>
+
+<p>A <code><a href="../../htmltools/help/builder.html">htmltools::div()</a></code> tag.
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="../../bslib/help/card_body.html">card_body()</a></code> for putting stuff inside the card.
+</p>
+<p><code><a href="../../bslib/help/navset_card_tab.html">navset_card_tab()</a></code> for cards with multiple tabs.
+</p>
+<p><code><a href="../../bslib/help/layout_column_wrap.html">layout_column_wrap()</a></code> for laying out multiple cards (or multiple
+columns inside a card).
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+
+library(htmltools)
+
+if (interactive()) {
+  card(
+    full_screen = TRUE,
+    card_header(
+      "This is the header"
+    ),
+    card_body(
+      p("This is the body."),
+      p("This is still the body.")
+    ),
+    card_footer(
+      "This is the footer"
+    )
+  )
+}
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>bslib</em> version 0.5.1 <a href="00Index.html">Index</a>]</div>
+</div></body></html>

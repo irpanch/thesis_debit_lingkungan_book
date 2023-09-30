@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Quarto Preview</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body><div class="container">
+
+<table width="100%" summary="page for quarto_preview {quarto}"><tr><td>quarto_preview {quarto}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Quarto Preview</h2>
+
+<h3>Description</h3>
+
+<p>Render and preview a Quarto document or website project.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+quarto_preview(
+  file = NULL,
+  render = "auto",
+  port = "auto",
+  host = "127.0.0.1",
+  browse = TRUE,
+  watch = TRUE,
+  navigate = TRUE
+)
+
+quarto_preview_stop()
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>file</code></td>
+<td>
+<p>The document or website project directory to preview (defaults to
+current working directory)</p>
+</td></tr>
+<tr valign="top"><td><code>render</code></td>
+<td>
+<p>For website preview, the most recent execution results of
+computational documents are used to render the site (this is to optimize
+startup time). If you want to perform a full render prior to serving pass
+&quot;all&quot; or a vector of specific formats to render. Pass &quot;default&quot; to render
+the default format for the site. For document preview, the document is
+rendered prior to preview (pass <code>FALSE</code> to override this).</p>
+</td></tr>
+<tr valign="top"><td><code>port</code></td>
+<td>
+<p>Port to listen on (defaults to 4848)</p>
+</td></tr>
+<tr valign="top"><td><code>host</code></td>
+<td>
+<p>Hostname to bind to (defaults to 127.0.0.1)</p>
+</td></tr>
+<tr valign="top"><td><code>browse</code></td>
+<td>
+<p>Open a browser to preview the content. Defaults to using the
+RStudio Viewer when running within RStudio.Pass a function (e.g.
+<code>utils::browseURL</code> to override this behavior).</p>
+</td></tr>
+<tr valign="top"><td><code>watch</code></td>
+<td>
+<p>Watch for changes and automatically reload browser.</p>
+</td></tr>
+<tr valign="top"><td><code>navigate</code></td>
+<td>
+<p>Automatically navigate the preview browser to the most
+recently rendered document.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>Automatically reloads the browser when input files are re-rendered or
+document resources (e.g. CSS) change.
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+## Not run: 
+# Preview the project in the current directory
+quarto_preview()
+
+# Preview a document
+quarto_preview("document.qmd")
+
+# Preview the project in "myproj" directory and use external browser
+# (rather than RStudio Viewer)
+quarto_preview("myproj", open = utils::browseURL)
+
+# Stop any running quarto preview
+quarto_preview_stop()
+
+## End(Not run)
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>quarto</em> version 1.3 <a href="00Index.html">Index</a>]</div>
+</div></body></html>

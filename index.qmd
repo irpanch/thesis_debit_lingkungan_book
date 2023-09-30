@@ -1,0 +1,43 @@
+# Abtrak {.unnumbered}
+
+Perubahan karakteristik debit sungai akibat kegiatan antropogenik berdampak langsung pada segala mahluk hidup yang bergantung pada sungai tersebut. Selain daripada manusia, sungai merupakan tempat hidup habitat akuatik yang perlu dijaga kelestariannya. Dari sisi hidrologi mitigasi terhadap kebutuhan minimal air di sungai ini sudah dituangkan dalam bentuk "debit lingkungan" atau "debit pemeliharaan", salah satu metode yang disarankan dalam aturan PP No. 38 Tahun 2011 adalah Q~95~. Akan tetapi metode ini hanya didasarkan pada kebutuhan debit minimum sungai, tanpa melihat respon habitat yang ada di dalamnya.
+
+Maksud dan tujuan dari penelitian adalah untuk mengetahui seberapa besar perubahan karakteristik debit (kesenjangan debit / *gap*) pada sungai citarum hulu, melakukan indentifikasi kondisi habitat asli serta memperoleh metode yang paling sesuai untuk yang mengakomodir kebutuhan habitat yang ada.
+
+Dalam penelitian ini digunakan tiga metode pendekatan, yaitu: pendekatan hidrologi/hidrolika, pendekatan aturan lingkungan, dan pendekatan kondisi optimum habitat. Untuk hidrologi digunakan pengamatan debit tiga pos duga air (Sapan, Dayeuh Kolot, dan Nanjung) selama 17 tahun yang kemudian dilakukan analisa lengkung durasi debit (FDC). Nilai FDC tersebut kemudian dijadikan input/syarat batas pada pemodelan hidrolika untuk memperoleh karakteristik hidrolika seperti kecepatan dan kedalaman di tiap-tiap pos duga air.  Berikutnya untuk aturan lingkungan menggunakan PP. No. 82 Tahun 2001. Untuk kondisi optimum habitat didasarkan pada spesies ikan Hampala dikarenakan spesies asli terbanyak yang ada di Sungai Citarum Hulu.
+
+Kesenjangan (*gap*) yang paling besar diantara pos duga air di Citarum Hulu ada di PDA Nanjung. Dimana dibandingkan periode 2004-2012, pada periode 2013-2020 terjadi peningkatan debit dibulan April sebesar 80.8% dan penurunan debit di Bulan Agustus sebesar 49.3%. dari hasil hidrologi dan hidrolika diperoleh nilai Debit Q~95~ Di PDA Sapan 1.76 m^3^/dtk dengan kecepatan 0.08 m/dtk serta kedalaman muka air 1.07 m. Untuk PDA Dayeuh Kolot didapat nilai debit Q~95~ 2.46 m^3^/dtk dengan kecepatan 0.05 m/dtk serta kedalaman muka air 3.61 m. Pada lokasi lain, PDA Nanjung, nilai Debit Q~95~ 5.81 m^3^/dtk dengan kecepatan 0.27 m/dtk serta kedalaman muka air 1.98 m.
+
+Dari segi aturan lingkungan, belum terdapat batasan minimal untuk debit yang dibutuhkan untuk habitat perairan. Parameter yang dipakai adalah kualitas air yang tertera dalam PP No. 82 Tahun 2001.
+
+Untuk spesies habitat yang mewakili Sungai Citarum Hulu dipilih Ikan Hampala (*Hampala macrolepidota*). Kondisi lingkungan yang paling optimal pada ikan tersebut diantaranya kecepatan arus 0.02 m/detik dan kedalaman air 4.6 meter.
+
+Kata kunci: debit lingkungan, habitat perairan, citarum hulu.
+
+# Abtract {.unnumbered}
+
+*Changes in river discharge characteristics due to anthropogenic activities have a direct impact on all living things that depend on the river. Aside from humans, the river is a place for living aquatic habitats that need to be preserved. From a hydrological perspective, mitigation of the minimum need for water in this river has been stated in the form of an "environmental discharge" or "maintenance discharge", one of the methods suggested in PP No. 38 of 2011 is Q~95~. However, this method is only based on the minimum river discharge requirement, regardless of the response of the habitat in it.*
+
+*The aims and objectives of the study were to find out how much the discharge characteristics (discharge gap) changed in the upstream Citarum river, to identify the conditions of the original habitat and to obtain the most suitable method to accommodate the needs of the existing habitat.*
+
+*In this study, three approaches were used, namely: the hydrological/hydraulic approach, the environmental regulation approach, and the optimum habitat condition approach. For hydrology, three water gauges were used to observe discharge (Sapan, Dayeuh Kolot, and Nanjung) for 17 years, which then analyzed the flow duration curve analysis (FDCA). The FDCA value is then used as input/boundary condition in hydraulics modeling to obtain hydraulic characteristics such as speed and depth at each water gauge post. Next for environmental rules use PP. No. 82 of 2001. The optimum habitat conditions are based on the Hampala fish species because the most native species are in the Upper Citarum River.*
+
+*The biggest gap between PDA in Citarum Hulu is in PDA Nanjung. Where compared to the 2004-2012 period, in the 2013-2020 period there was an increase in debits in April of 80.8% and a decrease in debits in August of 49.3%. from the results of hydrology and hydraulics, it was obtained that the Q95 discharge value at PDA Sapan was 1.76 m*^3^*/sec with a speed of 0.08 m/sec and a water level depth of 1.07 m. For PDA Dayeuh Kolot, the Q95 discharge value was 2.46 m3/sec with a speed of 0.05 m/s and a water depth of 3.61 m. At another location, PDA Nanjung, the value of the Q~95~ discharge was 5.81 m3/sec with a speed of 0.27 m/sec and a water level depth of 1.98 m.*
+
+*In terms of environmental regulations, there is no minimum limit for discharge required for aquatic habitats. The parameter used is the water quality stated in PP No. 82 of 2001.*
+
+*For the habitat species representing the Upper Citarum River, the Hampala Fish (Hampala macrolepidota) was chosen. The most optimal environmental conditions for these fish include a current speed of 0.02 m/s and a water depth of 4.6 meters.*
+
+*Keywords: environmental flow, aquatic habitat, upstream Citarum.Changes in river discharge characteristics due to anthropogenic activities have a direct impact on all living things that depend on the river. Aside from humans, the river is a place for living aquatic habitats that need to be preserved. From a hydrological perspective, mitigation of the minimum need for water in this river has been stated in the form of an "environmental discharge" or "maintenance discharge", one of the methods suggested in PP No. 38 of 2011 is Q~95~. However, this method is only based on the minimum river discharge requirement, regardless of the response of the habitat in it.*
+
+*The aims and objectives of the study were to find out how much the discharge characteristics (discharge gap) changed in the upstream Citarum river, to identify the conditions of the original habitat and to obtain the most suitable method to accommodate the needs of the existing habitat.*
+
+*In this study, three approaches were used, namely: the hydrological/hydraulic approach, the environmental regulation approach, and the optimum habitat condition approach. For hydrology, three water gauges were used to observe discharge (Sapan, Dayeuh Kolot, and Nanjung) for 17 years, which then analyzed the flow duration curve analysis (FDCA). The FDCA value is then used as input/boundary condition in hydraulics modeling to obtain hydraulic characteristics such as speed and depth at each water gauge post. Next for environmental rules use PP. No. 82 of 2001. The optimum habitat conditions are based on the Hampala fish species because the most native species are in the Upper Citarum River.*
+
+*The biggest gap between PDA in Citarum Hulu is in PDA Nanjung. Where compared to the 2004-2012 period, in the 2013-2020 period there was an increase in debits in April of 80.8% and a decrease in debits in August of 49.3%. from the results of hydrology and hydraulics, it was obtained that the Q95 discharge value at PDA Sapan was 1.76 m*^3^*/sec with a speed of 0.08 m/sec and a water level depth of 1.07 m. For PDA Dayeuh Kolot, the Q95 discharge value was 2.46 m3/sec with a speed of 0.05 m/s and a water depth of 3.61 m. At another location, PDA Nanjung, the value of the Q~95~ discharge was 5.81 m3/sec with a speed of 0.27 m/sec and a water level depth of 1.98 m.*
+
+*In terms of environmental regulations, there is no minimum limit for discharge required for aquatic habitats. The parameter used is the water quality stated in PP No. 82 of 2001.*
+
+*For the habitat species representing the Upper Citarum River, the Hampala Fish (Hampala macrolepidota) was chosen. The most optimal environmental conditions for these fish include a current speed of 0.02 m/s and a water depth of 4.6 meters.*
+
+*Keywords: environmental flow, aquatic habitat, upstream Citarum.*
