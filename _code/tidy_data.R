@@ -8,14 +8,14 @@ library(scales)
 
 # import and checking -----------------------------------------------------
 
-dayeuh_kolot <- read_csv("1_data/hymos_dayeuh_kolot.csv")
-sapan <- read_csv("1_data/hymos_sapan.csv")
-nanjung <- read_csv("1_data/hymos_nanjung.csv",
+dayeuh_kolot <- read_csv("_data/hymos_dayeuh_kolot.csv")
+sapan <- read_csv("_data/hymos_sapan.csv")
+nanjung <- read_csv("_data/hymos_nanjung.csv",
                     col_types = cols(value = col_character(), 
                                      station = col_character()))
-majalaya <- read_csv("1_data/hymos_majalaya.csv")
+majalaya <- read_csv("_data/hymos_majalaya.csv")
 
-## cek data hasil import
+## cek data hasil import. kolom tanggal harus dalam tipe "date"
 glimpse(dayeuh_kolot)
 glimpse(sapan)
 glimpse(nanjung)
@@ -58,7 +58,30 @@ glimpse(sapan_filter)
 glimpse(nanjung_filter)
 glimpse(majalaya_filter)
 
-write.csv(nanjung_filter,"4_output/nanjung_filter.csv")
+## tulis di output
+write.csv(dayeuh_kolot_filter,"_output/dayeuh_kolot_filter.csv")
+write.csv(sapan_filter,"_output/sapan_filter.csv")
+write.csv(nanjung_filter,"_output/nanjung_filter.csv")
+write.csv(majalaya_filter,"_output/majalaya_filter.csv")
+
+## rename column to adjust the fasstr package
+dy_kolot_rename <- dayeuh_kolot_filter %>% 
+  rename(Date=date,
+         Value=value,
+         groups=station)
+sapan_rename <- sapan_filter %>% 
+  rename(Date=date,
+         Value=value,
+         groups=station)
+majalaya_rename <- majalaya_filter %>% 
+  rename(Date=date,
+         Value=value,
+         groups=station)
+nanjung_rename <- nanjung_filter %>% 
+  rename(Date=date,
+         Value=value,
+         groups=station)
+
 
 screen_flow_data(data = majalaya_rename)
 plot_data_screening(data = majalaya_rename)
@@ -94,41 +117,23 @@ plot_semua_pda + scale_x_date(date_labels = "%b %Y",
   
 
 # analisa_debit -----------------------------------------------------------
-## rename column to adjust the fasstr package
-dy_kolot_rename <- dayeuh_kolot_filter %>% 
-  rename(Date=date,
-         Value=value,
-         groups=station)
-sapan_rename <- sapan_filter %>% 
-  rename(Date=date,
-         Value=value,
-         groups=station)
-majalaya_rename <- majalaya_filter %>% 
-  rename(Date=date,
-         Value=value,
-         groups=station)
-nanjung_rename <- nanjung_filter %>% 
-  rename(Date=date,
-         Value=value,
-         groups=station)
-
 
 ## longterm calculation
 long_term_dy_kolot <- calc_longterm_daily_stats(data = dy_kolot_rename)
 plot_longterm_monthly_stats(data=dy_kolot_rename)
-write.csv(long_term_dy_kolot,"4_output/long_term_dayeuh_kolot.csv")
+write.csv(long_term_dy_kolot,"_output/long_term_dayeuh_kolot.csv")
 
 long_term_sapan <- calc_longterm_daily_stats(data = sapan_rename)
 plot_longterm_monthly_stats(data=sapan_rename)
-write.csv(long_term_sapan,"4_output/long_term_sapan.csv")
+write.csv(long_term_sapan,"_output/long_term_sapan.csv")
 
 long_term_nanjung <- calc_longterm_daily_stats(data = nanjung_rename)
 plot_longterm_monthly_stats(data=nanjung_rename)
-write.csv(long_term_nanjung,"4_output/long_term_nanjung.csv")
+write.csv(long_term_nanjung,"_output/long_term_nanjung.csv")
 
 long_term_majalaya <- calc_longterm_daily_stats(data = mjly_fill,ignore_missing = T)
 plot_longterm_monthly_stats(data=mjly_fill,ignore_missing = T)
-write.csv(long_term_majalaya,"4_output/long_term_majalaya.csv")
+write.csv(long_term_majalaya,"_output/long_term_majalaya.csv")
 
 
 ## monthly calculation
@@ -191,7 +196,7 @@ Q_nanjung <- calc_longterm_percentile(data = nanjung_rename,
 
 
 write.csv(rbind(Q_majalaya, Q_sapan, Q_dy_kolot, Q_nanjung), 
-          "4_output/Q_andalan.csv")
+          "_output/Q_andalan.csv")
 
 ## debit per bulan 
 
@@ -355,19 +360,19 @@ Q_n_dec <- calc_longterm_percentile(data = nanjung_rename,
 
 write.csv(rbind(Q_m_jan, Q_m_feb, Q_m_mar,Q_m_apr,Q_m_may,Q_m_jun,
                 Q_m_jul,Q_m_aug,Q_m_sep,Q_m_oct,Q_m_nov,Q_m_dec), 
-          "4_output/Q_bulanan_majalaya.csv")
+          "_output/Q_bulanan_majalaya.csv")
 
 write.csv(rbind(Q_s_jan, Q_s_feb, Q_s_mar,Q_s_apr,Q_s_may,Q_s_jun,
                 Q_s_jul,Q_s_aug,Q_s_sep,Q_s_oct,Q_s_nov,Q_s_dec), 
-          "4_output/Q_bulanan_sapan.csv")
+          "_output/Q_bulanan_sapan.csv")
 
 write.csv(rbind(Q_dy_jan, Q_dy_feb, Q_dy_mar,Q_dy_apr,Q_dy_may,Q_dy_jun,
                 Q_dy_jul,Q_dy_aug,Q_dy_sep,Q_dy_oct,Q_dy_nov,Q_dy_dec), 
-          "4_output/Q_bulanan_dy_kolot.csv")
+          "_output/Q_bulanan_dy_kolot.csv")
 
 write.csv(rbind(Q_n_jan, Q_n_feb, Q_n_mar,Q_n_apr,Q_n_may,Q_n_jun,
                 Q_n_jul,Q_n_aug,Q_n_sep,Q_n_oct,Q_n_nov,Q_n_dec), 
-          "4_output/Q_bulanan_nanjung.csv")
+          "_output/Q_bulanan_nanjung.csv")
 
 
 # hitung annual trend -----------------------------------------------------
