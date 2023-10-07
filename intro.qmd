@@ -1,3 +1,10 @@
+---
+  crossref:
+    fig-title: 'Gambar'
+    fig-labels: arabic
+    title-delim: "**.**"
+---
+
 # Pendahuluan
 
 ## Latar Belakang {#sec-latar-belakang}
@@ -8,7 +15,7 @@ Di Indonesia sendiri, perubahan regim hidrologis akibat  kegiatan manusia seper
 
 Dalam bidang hidrologi, mitigasi untuk krisis air dan habitat sungai diatas sebenarnya sudah diakomodasi dengan penentuan debit lingkungan (*environmental flow*). @acreman2004, mendefinisikan Debit lingkungan sebagai kuantitas atau volume air yang dibutuhkan dari waktu ke waktu untuk menjaga kesehatan sungai di suatu keadaan tertentu, di mana keadaan tersebut harus ditentukan sebelumnya atau disepakati berdasarkan *trade-off* dengan pertimbangan lain".
 
-Terdapat 207 metode yang  bisa digunakan untuk menghitung debit lingkungan [@stamou2018]. Metode-metode tersebut kemudian bisa diklasifikasikan menjadi 4 (empat) bagian: hidrologi, hidraulik, habitat, dan holistik [@tharme2003]. Metode probabilitas Q~95~ [@sni6738:20152015]yang umumnya digunakan di Indonesia  masuk dalam klasifikasi metode hidrologi. Efektivitas penerapan metode Q~95~ ini masih perlu dikaji terutama terhadap respon balik habitat yang ada di sungai mengingat parameter yang dijadikan acuan hanya nilai debit tertentu.Hal ini sebenarnya bisa berbahaya karena konsekuensi perhitungan debit lingkungan yang sederhana bisa menimbulkan resiko kepada integritas masa depan dan  keanekaragaman hayati dari ekosistem sungai [@arthington2006]. Untuk itu perlu dilakukan kajian mengenai efektivitas metode yang umum digunakan beserta perbandingannya dengan metode lain dengan parameter yang lebih beragam serta kompleksitas yang lebih tinggi.
+Terdapat 207 metode yang  bisa digunakan untuk menghitung debit lingkungan @stamou2018. Metode-metode tersebut kemudian bisa diklasifikasikan menjadi 4 (empat) bagian: hidrologi, hidraulik, habitat, dan holistik @tharme2003 Metode probabilitas Q~95~ @sni6738:20152015 yang umumnya digunakan di Indonesia  masuk dalam klasifikasi metode hidrologi. Efektivitas penerapan metode Q~95~ ini masih perlu dikaji terutama terhadap respon balik habitat yang ada di sungai mengingat parameter yang dijadikan acuan hanya nilai debit tertentu.Hal ini sebenarnya bisa berbahaya karena konsekuensi perhitungan debit lingkungan yang sederhana bisa menimbulkan resiko kepada integritas masa depan dan  keanekaragaman hayati dari ekosistem sungai @arthington2006 Untuk itu perlu dilakukan kajian mengenai efektivitas metode yang umum digunakan beserta perbandingannya dengan metode lain dengan parameter yang lebih beragam serta kompleksitas yang lebih tinggi.
 
 ## Masalah Penelitian {#sec-masalah-penelitian}
 
@@ -42,7 +49,33 @@ Sedangkan Tujuan yang ingin diperoleh pada penelitian ini adalah:
 
 ## Lingkup Studi {#sec-lingkup-studi}
 
+Beberapa hal yang dilingkup dalam studi ini adalah:
+
+1.  Melakukan pengumpulan data/kompilasi data yang terdiri atas data hidrologi, data karakteristik sungai, data topografi, data tutupan lahan, data habitat perairan.
+
+2.  Melakukan studi literatur.
+
+3.  Melakukan analisis hidrologi, meliputi analisis low flow analysis serta kesenjangan (gap) rata-rata debit dalam periode tertentu..
+
+4.  Melakukan analisis hirolika, meliputi analisis terhadap data dan topografi, analisis karakteristik profil muka air, dan melakukan simulasi hidrolik 1D dengan menggunakan program HEC-RAS.
+
+5.  Melakukan analisa kurva habitat.
+
 ## Batasan Masalah {#sec-batasan-masalah}
+
+Mengingat keterbatasan waktu dalam penyusunan tesis ini maka kajian dibatasi
+
+pada beberapa hal berikut:
+
+1.  Lokasi kajian berada di Sungai Citarum hulu diutamakan pada daerah yang telah dilakukan kajian habitat ikan yaitu Bojongsari, Andir, dan Rancamanyar (Lihat Gambar I 2).
+
+2.  Analisis yang dilakukan adalah analisis hidrologi dan hidrolika. Tidak dibahas kualitas air, infiltrasi, sedimentasi, temperatur, pelaksanaan maupun studi kelayakan ekonomi.
+
+3.  Analisis profil muka air/elevasi muka air dilakukan mulai Sapan hingga Nanjung pada ruas Citarum. lihat pada @fig-titik
+
+![Titik Sampling Habitat Ikan di Sungai Citarum Hulu (Sukardi et al., 2012)](_image_table_external/titik_sampling_2012.png){#fig-titik fig-align="center" width="476"}
+
+![Sungai Citarum Hulu (Ruas Sapan -- Nanjung)](_image_table_external/lokasi_ruas_sapan_nanjung.png){fig-align="center"}
 
 ## Lokasi Kajian {#sec-lokasi-kajian}
 
