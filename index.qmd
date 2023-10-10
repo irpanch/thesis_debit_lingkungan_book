@@ -14,7 +14,7 @@ Untuk spesies habitat yang mewakili Sungai Citarum Hulu dipilih Ikan Hampala (*H
 
 Kata kunci: debit lingkungan, habitat perairan, citarum hulu.
 
-# Abtract {.unnumbered}
+# *Abtract* {.unnumbered}
 
 *Changes in river discharge characteristics due to anthropogenic activities have a direct impact on all living things that depend on the river. Aside from humans, the river is a place for living aquatic habitats that need to be preserved. From a hydrological perspective, mitigation of the minimum need for water in this river has been stated in the form of an "environmental discharge" or "maintenance discharge", one of the methods suggested in PP No. 38 of 2011 is Q~95~. However, this method is only based on the minimum river discharge requirement, regardless of the response of the habitat in it.*
 

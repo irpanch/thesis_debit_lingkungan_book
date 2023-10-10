@@ -1,8 +1,8 @@
 ---
-  crossref:
-    fig-title: 'Gambar'
-    fig-labels: arabic
-    title-delim: "**.**"
+crossref:
+  fig-title: '**Gambar**'
+  fig-labels: arabic
+  title-delim: "**. **"
 ---
 
 # Pendahuluan
@@ -67,16 +67,58 @@ Mengingat keterbatasan waktu dalam penyusunan tesis ini maka kajian dibatasi
 
 pada beberapa hal berikut:
 
-1.  Lokasi kajian berada di Sungai Citarum hulu diutamakan pada daerah yang telah dilakukan kajian habitat ikan yaitu Bojongsari, Andir, dan Rancamanyar (Lihat Gambar I 2).
+1.  Lokasi kajian berada di Sungai Citarum hulu diutamakan pada daerah yang telah dilakukan kajian habitat ikan yaitu Bojongsari, Andir, dan Rancamanyar (lihat pada [Gambar @fig-titik])
 
-2.  Analisis yang dilakukan adalah analisis hidrologi dan hidrolika. Tidak dibahas kualitas air, infiltrasi, sedimentasi, temperatur, pelaksanaan maupun studi kelayakan ekonomi.
+2.  Analisis yang dilakukan adalah analisis hidrologi dan hidrolika. Tidak dibahas kualitas air, infiltrasi, sedimentasi, temperatur, pelaksanaan maupun studi kelayakan ekonomi. Lihat
 
-3.  Analisis profil muka air/elevasi muka air dilakukan mulai Sapan hingga Nanjung pada ruas Citarum. lihat pada @fig-titik
+3.  Analisis profil muka air/elevasi muka air dilakukan mulai Sapan hingga Nanjung pada ruas Citarum. lihat pada [Gambar @fig-tinjauan]
 
 ![Titik Sampling Habitat Ikan di Sungai Citarum Hulu (Sukardi et al., 2012)](_image_table_external/titik_sampling_2012.png){#fig-titik fig-align="center" width="476"}
 
-![Sungai Citarum Hulu (Ruas Sapan -- Nanjung)](_image_table_external/lokasi_ruas_sapan_nanjung.png){fig-align="center"}
+![Sungai Citarum Hulu (Ruas Sapan -- Nanjung)](_image_table_external/lokasi_ruas_sapan_nanjung.png){#fig-tinjauan fig-align="center"}
 
 ## Lokasi Kajian {#sec-lokasi-kajian}
 
+Lokasi dalam penelitian ini adalah ruas Sungai Citarum hulu khususnya di 8 (delapan) titik pengamatan. Yaitu:
+
+a.	Situ Cisanti, Desa Tarumajaya, Kecamatan Kertasari, Kab. Bandung;
+
+b.	Cihawuk, Desa Cibeureum, Kecamatan Kertasari, Kab. Bandung;
+
+c.	Bd. Wangisagara, Desa Karyalaksana, Kecamatan Ibun, Kab. Bandung;
+
+d.	Majalaya, Desa Majalaya, Kecamatan Majalaya, Kab. Bandung;
+
+e.	Tegalluar, Desa Sumbersari, Kecamatan Ciparay, Kab. Bandung;
+
+f.	Bojongsari, Desa Bojongsari, Kecamatan Bojongsoang, Kab. Bandung;
+
+g.	Rancamanyar, Desa Rancamanyar, Kecamatan Baleendah, Kab. Bandung;
+
+h.	Nanjung, Desa Jelegong, Kecamatan Kutawaringin, Kab. Bandung;
+
+Lokasi-lokasi tersebut dipilih karena selain terdapat empat titik pengamatan debit (PDA Majalaya, Sapan, Dayeuhkolot, dan Nanjung) juga penelitian mengenai habitat perairan telah banyak dilakukan di lokasi ini. ( @arif2012, @istiqomah2021, @sunardi2012, @kartamihardja2019).
+
+![Lokasi Tinjauan (Diadaptasi dari Sunardi et. al, 2012)](_image_table_external/lokasi_tinjauan.png){#fig-lokasi-tinjauan}
+
 ## Sistematika Penulisan {#sec-sistematika-penulisan}
+
+Dalam kajian ini, sistimatika pembahasan yang dilakukan adalah sebagai berikut:
+
+a.	Bab I Pendahuluan
+
+Dalam Bab I menjelaskan tentang Latar Belakang yang mendasari dipilihnya penelitian ini, Masalah Penelitian, Maksud dan Tujuan, Lingkup Studi, Batasan Masalah, Lokasi Kajian serta Sistimatika Penulisan yang dilakukan untuk menyelesaikannya.
+
+b.	Bab II Tinjauan Pustaka
+
+Berisi tentang studi terdahulu yang berkaitan dengan lokasi kajian, uraian teori ataupun pedoman yang berkaitan dengan permasalahan secara teoritis yang dipakai dalam studi ini.
+
+c.	Bab III Metodologi Penelitian
+
+Pada bab ini akan diuraikan metodologi yang dilaksanakan dalam penelitian ini, yang mencakup alur pikir, metode pelaksanaan kegiatan termasuk dalam pengumpulan data sampai dengan simulasi model.
+
+d.	Bab IV Analisis dan Pembahasan
+
+Pada bab ini akan dibahas mengenai hasil dari pengumpulan data, analisis hidrologi dengan FDCA, analisis hidrolika, simulasi yang dilakukan menggunakan perangkat lunak HEC-RAS (untuk mendapatkan karakteristik hidrolika), tinjauan berdasarkan aturan lingkungan, dan analisa kecocokan habitat.
+
+e.	Bab V Kesimpulan Sementara

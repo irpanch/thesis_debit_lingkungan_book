@@ -1,0 +1,25 @@
+---
+crossref:
+  fig-title: '**Gambar**'
+  fig-labels: arabic
+  title-delim: "**. **"
+---
+
+# Tinjauan Pustaka
+
+Pada bab ini akan dibahas
+studi literatur mengenai debit lingkungan baik dalam bentuk artikel, jurnal,
+ataupun buku. Selain itu akan dibahas pula mengenai konsep dasar, definisi, dan
+kondisi lokasi studi penelitian.
+
+## Studi Literatur
+
+### Kerangka Pikir (*Framework*)
+
+### Metode dan Aplikasi
+
+### Kondisi Sungai Citarum Hulu
+
+### Studi Kasus Mengenai Habitat
+
+### Studi Kasus Mengenai Hidrologi
