@@ -7,8 +7,8 @@ book:
   date: "October 2023"
   chapters:
     - index.qmd
-    - 1_pendahuluan.qmd
-    - 2_tinjauan_pustaka.qmd
+    - pendahuluan.qmd
+    - tinjauan_pustaka.qmd
     - summary.qmd
     - references.qmd
 
@@ -20,6 +20,9 @@ format:
     css: styles.css
     code-fold: true
     html-math-method: katex
+    number-sections: true
+    number-offset: 2
+    number-depth: 3
   pdf:
     documentclass: scrreprt
     geometry: 
@@ -28,4 +31,7 @@ format:
   docx: default
 
 editor: visual
-
+crossref:
+  fig-title: '**Gambar**'
+  fig-labels: arabic
+  title-delim: "**. **"
