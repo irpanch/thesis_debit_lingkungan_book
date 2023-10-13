@@ -81,44 +81,83 @@ pada beberapa hal berikut:
 
 Lokasi dalam penelitian ini adalah ruas Sungai Citarum hulu khususnya di 8 (delapan) titik pengamatan. Yaitu:
 
-a.	Situ Cisanti, Desa Tarumajaya, Kecamatan Kertasari, Kab. Bandung;
+a.  Situ Cisanti, Desa Tarumajaya, Kecamatan Kertasari, Kab. Bandung;
 
-b.	Cihawuk, Desa Cibeureum, Kecamatan Kertasari, Kab. Bandung;
+b.  Cihawuk, Desa Cibeureum, Kecamatan Kertasari, Kab. Bandung;
 
-c.	Bd. Wangisagara, Desa Karyalaksana, Kecamatan Ibun, Kab. Bandung;
+c.  Bd. Wangisagara, Desa Karyalaksana, Kecamatan Ibun, Kab. Bandung;
 
-d.	Majalaya, Desa Majalaya, Kecamatan Majalaya, Kab. Bandung;
+d.  Majalaya, Desa Majalaya, Kecamatan Majalaya, Kab. Bandung;
 
-e.	Tegalluar, Desa Sumbersari, Kecamatan Ciparay, Kab. Bandung;
+e.  Tegalluar, Desa Sumbersari, Kecamatan Ciparay, Kab. Bandung;
 
-f.	Bojongsari, Desa Bojongsari, Kecamatan Bojongsoang, Kab. Bandung;
+f.  Bojongsari, Desa Bojongsari, Kecamatan Bojongsoang, Kab. Bandung;
 
-g.	Rancamanyar, Desa Rancamanyar, Kecamatan Baleendah, Kab. Bandung;
+g.  Rancamanyar, Desa Rancamanyar, Kecamatan Baleendah, Kab. Bandung;
 
-h.	Nanjung, Desa Jelegong, Kecamatan Kutawaringin, Kab. Bandung;
+h.  Nanjung, Desa Jelegong, Kecamatan Kutawaringin, Kab. Bandung;
 
 Lokasi-lokasi tersebut dipilih karena selain terdapat empat titik pengamatan debit (PDA Majalaya, Sapan, Dayeuhkolot, dan Nanjung) juga penelitian mengenai habitat perairan telah banyak dilakukan di lokasi ini. ( @arif2012, @istiqomah2021, @sunardi2012, @kartamihardja2019).
 
-![Lokasi Tinjauan (Diadaptasi dari Sunardi et. al, 2012)](_image_table_external/lokasi_tinjauan.png){#fig-lokasi-tinjauan}
+```{r}
+#| label: fig-lokasi_peta
+#| fig-cap: "Lokasi Tinjauan (Diadaptasi dari Sunardi et. al, 2012)"
+library(leaflet)
+leaflet() %>%
+  addTiles() %>%  # Add default OpenStreetMap map tiles
+  addMarkers(
+    lng=107.657602, lat=-7.208400, 
+    label="1. Situ Cisanti",
+    labelOptions = labelOptions(noHide = T)) %>% 
+  addMarkers(
+    lng=107.694908, lat=-7.179903, 
+    label="2. Cihawuk",
+    labelOptions = labelOptions(noHide = T)) %>% 
+  addMarkers(
+    lng=107.748823, lat= -7.073946, 
+    label="3. Bd. Wangisagara",
+    labelOptions = labelOptions(noHide = T) )%>% 
+  addMarkers(
+    lng=107.756565, lat= -7.0506543, 
+    label="4. Majalaya",
+    labelOptions = labelOptions(noHide = T) )%>% 
+  addMarkers(
+    lng=107.689273, lat= -6.989905, 
+    label="5. Tegalluar",
+    labelOptions = labelOptions(noHide = T) )%>% 
+  addMarkers(
+    lng=107.654809, lat= -7.007848, 
+    label="6. Bojongsari",
+    labelOptions = labelOptions(noHide = T) )%>% 
+   addMarkers(
+    lng=107.593133, lat= -6.984941, 
+    label="7. Rancamanyar",
+    labelOptions = labelOptions(noHide = T) )%>% 
+   addMarkers(
+    lng=107.535658, lat= -6.941820, 
+    label="8. Nanjung",
+    labelOptions = labelOptions(noHide = T))
+
+```
 
 ## Sistematika Penulisan {#sec-sistematika-penulisan}
 
 Dalam kajian ini, sistimatika pembahasan yang dilakukan adalah sebagai berikut:
 
-a.	Bab I Pendahuluan
+a.  Bab I Pendahuluan
 
 Dalam Bab I menjelaskan tentang Latar Belakang yang mendasari dipilihnya penelitian ini, Masalah Penelitian, Maksud dan Tujuan, Lingkup Studi, Batasan Masalah, Lokasi Kajian serta Sistimatika Penulisan yang dilakukan untuk menyelesaikannya.
 
-b.	Bab II Tinjauan Pustaka
+b.  Bab II Tinjauan Pustaka
 
 Berisi tentang studi terdahulu yang berkaitan dengan lokasi kajian, uraian teori ataupun pedoman yang berkaitan dengan permasalahan secara teoritis yang dipakai dalam studi ini.
 
-c.	Bab III Metodologi Penelitian
+c.  Bab III Metodologi Penelitian
 
 Pada bab ini akan diuraikan metodologi yang dilaksanakan dalam penelitian ini, yang mencakup alur pikir, metode pelaksanaan kegiatan termasuk dalam pengumpulan data sampai dengan simulasi model.
 
-d.	Bab IV Analisis dan Pembahasan
+d.  Bab IV Analisis dan Pembahasan
 
 Pada bab ini akan dibahas mengenai hasil dari pengumpulan data, analisis hidrologi dengan FDCA, analisis hidrolika, simulasi yang dilakukan menggunakan perangkat lunak HEC-RAS (untuk mendapatkan karakteristik hidrolika), tinjauan berdasarkan aturan lingkungan, dan analisa kecocokan habitat.
 
-e.	Bab V Kesimpulan Sementara
+e.  Bab V Kesimpulan Sementara

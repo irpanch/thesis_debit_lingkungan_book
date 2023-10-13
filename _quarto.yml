@@ -18,8 +18,14 @@ format:
   html:
     theme: cosmo
     css: styles.css
+    code-fold: true
+    html-math-method: katex
   pdf:
     documentclass: scrreprt
+    geometry: 
+      - top=30 mm
+      - left=30 mm
+  docx: default
 
 editor: visual
 
