@@ -11,3 +11,9 @@ Kelebihannya: Analisa akan semakin akurat, cepat, dan bisa direproduksi ulang pa
 Kekurangan: *Learning curve* yang cukup tajam.
 
 Solusi: harus **sabar** dan **konsisten**.
+
+### Notes
+
+git command untuk commit all:
+
+`git add -A && git commit -m "Your Message"`
