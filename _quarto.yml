@@ -7,9 +7,12 @@ book:
   date: "October 2023"
   chapters:
     - index.qmd
-    - pendahuluan.qmd
-    - tinjauan_pustaka.qmd
-    - summary.qmd
+    - 1_pendahuluan.qmd
+    - 2_tinjauan_pustaka.qmd
+    - 3_gambaran_umum.qmd
+    - 4_metodologi_penelitian.qmd
+    - 5_analisa_pembahasan.qmd
+    - 6_kesimpulan_saran.qmd
     - references.qmd
 
 bibliography: references.bib

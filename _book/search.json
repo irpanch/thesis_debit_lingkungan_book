@@ -80,50 +80,50 @@
     "objectID": "1_pendahuluan.html#sec-latar-belakang",
     "href": "1_pendahuluan.html#sec-latar-belakang",
     "title": "1  Pendahuluan",
-    "section": "1 Latar Belakang",
-    "text": "1 Latar Belakang\nSecara global, penggunaan air yang berlebihan menyebabkan masalah lingkungan yang sangat serius dalam beberapa dekade terakhir (Vörösmarty et al. 2010). Air yang dibutuhkan oleh manusia naik secara eksponensial semenjak masa pra-industrialisasi khususnya setelah tahun 1950-an (Schmutz and Sendzimir 2018). Krisis air yang terjadi bukan hanya terjadi dari sudut pandang manusia, namun juga biota air sungai yang hidup didalamnya. World Wide Fund for Nature atau WWF (2020), menyebutkan bahwa hingga 84% hewan air tawar di seluruh dunia telah berkurang sejak tahun 1970.\nDi Indonesia sendiri, perubahan regim hidrologis akibat  kegiatan manusia seperti ekstraksi dan okupasi menyebabkan bertambahnya debit banjir dan berkurangnya debit andalan di Sungai Citarum Hulu (Nurcahyo et al. 2016). Hal tersebut terjadi hampir bersamaan dengan rusaknya habitat ikan endemik yang ada (Istiqomah et al. 2021; Sunardi et al. 2012; Kartamihardja 2019). Kondisi tersebut menunjukkan bahwa Sungai Citarum Hulu dalam keadaan yang tidak baik karena keberagaman ikan merupakan salah satu indikator ekosistem sungai yang sehat (Leigh et al. 2012).\nDalam bidang hidrologi, mitigasi untuk krisis air dan habitat sungai diatas sebenarnya sudah diakomodasi dengan penentuan debit lingkungan (environmental flow). Acreman and Dunbar (2004), mendefinisikan Debit lingkungan sebagai kuantitas atau volume air yang dibutuhkan dari waktu ke waktu untuk menjaga kesehatan sungai di suatu keadaan tertentu, di mana keadaan tersebut harus ditentukan sebelumnya atau disepakati berdasarkan trade-off dengan pertimbangan lain”.\nTerdapat 207 metode yang  bisa digunakan untuk menghitung debit lingkungan Stamou et al. (2018). Metode-metode tersebut kemudian bisa diklasifikasikan menjadi 4 (empat) bagian: hidrologi, hidraulik, habitat, dan holistik Tharme (2003) Metode probabilitas Q95 SNI 6738:2015 (2015) yang umumnya digunakan di Indonesia  masuk dalam klasifikasi metode hidrologi. Efektivitas penerapan metode Q95 ini masih perlu dikaji terutama terhadap respon balik habitat yang ada di sungai mengingat parameter yang dijadikan acuan hanya nilai debit tertentu.Hal ini sebenarnya bisa berbahaya karena konsekuensi perhitungan debit lingkungan yang sederhana bisa menimbulkan resiko kepada integritas masa depan dan  keanekaragaman hayati dari ekosistem sungai Arthington et al. (2006) Untuk itu perlu dilakukan kajian mengenai efektivitas metode yang umum digunakan beserta perbandingannya dengan metode lain dengan parameter yang lebih beragam serta kompleksitas yang lebih tinggi."
+    "section": "1.1 Latar Belakang",
+    "text": "1.1 Latar Belakang\nSecara global, penggunaan air yang berlebihan menyebabkan masalah lingkungan yang sangat serius dalam beberapa dekade terakhir (Vörösmarty et al. 2010). Air yang dibutuhkan oleh manusia naik secara eksponensial semenjak masa pra-industrialisasi khususnya setelah tahun 1950-an (Schmutz and Sendzimir 2018). Krisis air yang terjadi bukan hanya terjadi dari sudut pandang manusia, namun juga biota air sungai yang hidup didalamnya. World Wide Fund for Nature atau WWF (2020), menyebutkan bahwa hingga 84% hewan air tawar di seluruh dunia telah berkurang sejak tahun 1970.\nDi Indonesia sendiri, perubahan regim hidrologis akibat  kegiatan manusia seperti ekstraksi dan okupasi menyebabkan bertambahnya debit banjir dan berkurangnya debit andalan di Sungai Citarum Hulu (Nurcahyo et al. 2016). Hal tersebut terjadi hampir bersamaan dengan rusaknya habitat ikan endemik yang ada (Istiqomah et al. 2021; Sunardi et al. 2012; Kartamihardja 2019). Kondisi tersebut menunjukkan bahwa Sungai Citarum Hulu dalam keadaan yang tidak baik karena keberagaman ikan merupakan salah satu indikator ekosistem sungai yang sehat (Leigh et al. 2012).\nDalam bidang hidrologi, mitigasi untuk krisis air dan habitat sungai diatas sebenarnya sudah diakomodasi dengan penentuan debit lingkungan (environmental flow). Acreman and Dunbar (2004), mendefinisikan Debit lingkungan sebagai kuantitas atau volume air yang dibutuhkan dari waktu ke waktu untuk menjaga kesehatan sungai di suatu keadaan tertentu, di mana keadaan tersebut harus ditentukan sebelumnya atau disepakati berdasarkan trade-off dengan pertimbangan lain”.\nTerdapat 207 metode yang  bisa digunakan untuk menghitung debit lingkungan Stamou et al. (2018). Metode-metode tersebut kemudian bisa diklasifikasikan menjadi 4 (empat) bagian: hidrologi, hidraulik, habitat, dan holistik Tharme (2003) Metode probabilitas Q95 SNI 6738:2015 (2015) yang umumnya digunakan di Indonesia  masuk dalam klasifikasi metode hidrologi. Efektivitas penerapan metode Q95 ini masih perlu dikaji terutama terhadap respon balik habitat yang ada di sungai mengingat parameter yang dijadikan acuan hanya nilai debit tertentu.Hal ini sebenarnya bisa berbahaya karena konsekuensi perhitungan debit lingkungan yang sederhana bisa menimbulkan resiko kepada integritas masa depan dan  keanekaragaman hayati dari ekosistem sungai Arthington et al. (2006) Untuk itu perlu dilakukan kajian mengenai efektivitas metode yang umum digunakan beserta perbandingannya dengan metode lain dengan parameter yang lebih beragam serta kompleksitas yang lebih tinggi."
   },
   {
     "objectID": "1_pendahuluan.html#sec-masalah-penelitian",
     "href": "1_pendahuluan.html#sec-masalah-penelitian",
     "title": "1  Pendahuluan",
-    "section": "2 Masalah Penelitian",
-    "text": "2 Masalah Penelitian\nBeberapa masalah penting yang akan dikaji pada penelitian ini adalah:\n\nApa metode perhitungan debit lingkungan yang paling sesuai untuk digunakan di sungai Citarum hulu?\nBerapa nilai debit yang diperlukan untuk kelangsungan hidup ekosistem di sungai Citarum hulu?\nSeberapa besar gap atau selisih debit lingkungan terhadap debit eksisting?\nUpaya apa yang bisa digunakan untuk mencapai dan mempertahankan debit lingkungan tersebut?"
+    "section": "1.2 Masalah Penelitian",
+    "text": "1.2 Masalah Penelitian\nBeberapa masalah penting yang akan dikaji pada penelitian ini adalah:\n\nApa metode perhitungan debit lingkungan yang paling sesuai untuk digunakan di sungai Citarum hulu?\nBerapa nilai debit yang diperlukan untuk kelangsungan hidup ekosistem di sungai Citarum hulu?\nSeberapa besar gap atau selisih debit lingkungan terhadap debit eksisting?\nUpaya apa yang bisa digunakan untuk mencapai dan mempertahankan debit lingkungan tersebut?"
   },
   {
     "objectID": "1_pendahuluan.html#sec-maksud-dan-tujuan-penelitian",
     "href": "1_pendahuluan.html#sec-maksud-dan-tujuan-penelitian",
     "title": "1  Pendahuluan",
-    "section": "3 Maksud dan Tujuan Penelitian",
-    "text": "3 Maksud dan Tujuan Penelitian\nMaksud dari penelitian ini adalah:\n\nMelakukan analisa kesenjangan (gap) debit.\nMengidentifikasi kondisi habitat di sungai Citarum hulu.\nMengkaji Metode debit lingkungan yang paling tepat digunakan di sungai Citarum hulu.\n\nSedangkan Tujuan yang ingin diperoleh pada penelitian ini adalah:\n\nMemperoleh nilai debit lingkungan yang mengakomodir kondisi hidrologi, peraturan/undang-undang yang ada, serta kebutuhan ekosistem habitat.\nMendapatkan nilai gap debit lingkungan terhadap debit sekarang.\nMemperoleh metode yang paling tepat untuk menentukan parameter debit lingkungan yang sesuai dengan kondisi lapangan"
+    "section": "1.3 Maksud dan Tujuan Penelitian",
+    "text": "1.3 Maksud dan Tujuan Penelitian\nMaksud dari penelitian ini adalah:\n\nMelakukan analisa kesenjangan (gap) debit.\nMengidentifikasi kondisi habitat di sungai Citarum hulu.\nMengkaji Metode debit lingkungan yang paling tepat digunakan di sungai Citarum hulu.\n\nSedangkan Tujuan yang ingin diperoleh pada penelitian ini adalah:\n\nMemperoleh nilai debit lingkungan yang mengakomodir kondisi hidrologi, peraturan/undang-undang yang ada, serta kebutuhan ekosistem habitat.\nMendapatkan nilai gap debit lingkungan terhadap debit sekarang.\nMemperoleh metode yang paling tepat untuk menentukan parameter debit lingkungan yang sesuai dengan kondisi lapangan"
   },
   {
     "objectID": "1_pendahuluan.html#sec-lingkup-studi",
     "href": "1_pendahuluan.html#sec-lingkup-studi",
     "title": "1  Pendahuluan",
-    "section": "4 Lingkup Studi",
-    "text": "4 Lingkup Studi\nBeberapa hal yang dilingkup dalam studi ini adalah:\n\nMelakukan pengumpulan data/kompilasi data yang terdiri atas data hidrologi, data karakteristik sungai, data topografi, data tutupan lahan, data habitat perairan.\nMelakukan studi literatur.\nMelakukan analisis hidrologi, meliputi analisis low flow analysis serta kesenjangan (gap) rata-rata debit dalam periode tertentu..\nMelakukan analisis hirolika, meliputi analisis terhadap data dan topografi, analisis karakteristik profil muka air, dan melakukan simulasi hidrolik 1D dengan menggunakan program HEC-RAS.\nMelakukan analisa kurva habitat."
+    "section": "1.4 Lingkup Studi",
+    "text": "1.4 Lingkup Studi\nBeberapa hal yang dilingkup dalam studi ini adalah:\n\nMelakukan pengumpulan data/kompilasi data yang terdiri atas data hidrologi, data karakteristik sungai, data topografi, data tutupan lahan, data habitat perairan.\nMelakukan studi literatur.\nMelakukan analisis hidrologi, meliputi analisis low flow analysis serta kesenjangan (gap) rata-rata debit dalam periode tertentu..\nMelakukan analisis hirolika, meliputi analisis terhadap data dan topografi, analisis karakteristik profil muka air, dan melakukan simulasi hidrolik 1D dengan menggunakan program HEC-RAS.\nMelakukan analisa kurva habitat."
   },
   {
     "objectID": "1_pendahuluan.html#sec-batasan-masalah",
     "href": "1_pendahuluan.html#sec-batasan-masalah",
     "title": "1  Pendahuluan",
-    "section": "5 Batasan Masalah",
-    "text": "5 Batasan Masalah\nMengingat keterbatasan waktu dalam penyusunan tesis ini maka kajian dibatasi\npada beberapa hal berikut:\n\nLokasi kajian berada di Sungai Citarum hulu diutamakan pada daerah yang telah dilakukan kajian habitat ikan yaitu Bojongsari, Andir, dan Rancamanyar (lihat pada Gambar 1.1)\nAnalisis yang dilakukan adalah analisis hidrologi dan hidrolika. Tidak dibahas kualitas air, infiltrasi, sedimentasi, temperatur, pelaksanaan maupun studi kelayakan ekonomi. Lihat\nAnalisis profil muka air/elevasi muka air dilakukan mulai Sapan hingga Nanjung pada ruas Citarum. lihat pada Gambar 1.2\n\n\n\n\nGambar 1.  Titik Sampling Habitat Ikan di Sungai Citarum Hulu (Sukardi et al., 2012)\n\n\n\n\n\nGambar 2.  Sungai Citarum Hulu (Ruas Sapan – Nanjung)"
+    "section": "1.5 Batasan Masalah",
+    "text": "1.5 Batasan Masalah\nMengingat keterbatasan waktu dalam penyusunan tesis ini maka kajian dibatasi\npada beberapa hal berikut:\n\nLokasi kajian berada di Sungai Citarum hulu diutamakan pada daerah yang telah dilakukan kajian habitat ikan yaitu Bojongsari, Andir, dan Rancamanyar (lihat pada Gambar 1.1)\nAnalisis yang dilakukan adalah analisis hidrologi dan hidrolika. Tidak dibahas kualitas air, infiltrasi, sedimentasi, temperatur, pelaksanaan maupun studi kelayakan ekonomi. Lihat\nAnalisis profil muka air/elevasi muka air dilakukan mulai Sapan hingga Nanjung pada ruas Citarum. lihat pada Gambar 1.2\n\n\n\n\nGambar 1.1.  Titik Sampling Habitat Ikan di Sungai Citarum Hulu (Sukardi et al., 2012)\n\n\n\n\n\nGambar 1.2.  Sungai Citarum Hulu (Ruas Sapan – Nanjung)"
   },
   {
     "objectID": "1_pendahuluan.html#sec-lokasi-kajian",
     "href": "1_pendahuluan.html#sec-lokasi-kajian",
     "title": "1  Pendahuluan",
-    "section": "6 Lokasi Kajian",
-    "text": "6 Lokasi Kajian\nLokasi dalam penelitian ini adalah ruas Sungai Citarum hulu khususnya di 8 (delapan) titik pengamatan. Yaitu:\n\nSitu Cisanti, Desa Tarumajaya, Kecamatan Kertasari, Kab. Bandung;\nCihawuk, Desa Cibeureum, Kecamatan Kertasari, Kab. Bandung;\nBd. Wangisagara, Desa Karyalaksana, Kecamatan Ibun, Kab. Bandung;\nMajalaya, Desa Majalaya, Kecamatan Majalaya, Kab. Bandung;\nTegalluar, Desa Sumbersari, Kecamatan Ciparay, Kab. Bandung;\nBojongsari, Desa Bojongsari, Kecamatan Bojongsoang, Kab. Bandung;\nRancamanyar, Desa Rancamanyar, Kecamatan Baleendah, Kab. Bandung;\nNanjung, Desa Jelegong, Kecamatan Kutawaringin, Kab. Bandung;\n\nLokasi-lokasi tersebut dipilih karena selain terdapat empat titik pengamatan debit (PDA Majalaya, Sapan, Dayeuhkolot, dan Nanjung) juga penelitian mengenai habitat perairan telah banyak dilakukan di lokasi ini. ( Arif (2012), Istiqomah et al. (2021), Sunardi et al. (2012), Kartamihardja (2019)).\n\n\nCode\nlibrary(leaflet)\nleaflet() %&gt;%\n  addTiles() %&gt;%  # Add default OpenStreetMap map tiles\n  addMarkers(\n    lng=107.657602, lat=-7.208400, \n    label=\"1. Situ Cisanti\",\n    labelOptions = labelOptions(noHide = T)) %&gt;% \n  addMarkers(\n    lng=107.694908, lat=-7.179903, \n    label=\"2. Cihawuk\",\n    labelOptions = labelOptions(noHide = T)) %&gt;% \n  addMarkers(\n    lng=107.748823, lat= -7.073946, \n    label=\"3. Bd. Wangisagara\",\n    labelOptions = labelOptions(noHide = T) )%&gt;% \n  addMarkers(\n    lng=107.756565, lat= -7.0506543, \n    label=\"4. Majalaya\",\n    labelOptions = labelOptions(noHide = T) )%&gt;% \n  addMarkers(\n    lng=107.689273, lat= -6.989905, \n    label=\"5. Tegalluar\",\n    labelOptions = labelOptions(noHide = T) )%&gt;% \n  addMarkers(\n    lng=107.654809, lat= -7.007848, \n    label=\"6. Bojongsari\",\n    labelOptions = labelOptions(noHide = T) )%&gt;% \n   addMarkers(\n    lng=107.593133, lat= -6.984941, \n    label=\"7. Rancamanyar\",\n    labelOptions = labelOptions(noHide = T) )%&gt;% \n   addMarkers(\n    lng=107.535658, lat= -6.941820, \n    label=\"8. Nanjung\",\n    labelOptions = labelOptions(noHide = T))\n\n\n\n\n\nGambar 3.  Lokasi Tinjauan (Diadaptasi dari Sunardi et. al, 2012)"
+    "section": "1.6 Lokasi Kajian",
+    "text": "1.6 Lokasi Kajian\nLokasi dalam penelitian ini adalah ruas Sungai Citarum hulu khususnya di 8 (delapan) titik pengamatan. Yaitu:\n\nSitu Cisanti, Desa Tarumajaya, Kecamatan Kertasari, Kab. Bandung;\nCihawuk, Desa Cibeureum, Kecamatan Kertasari, Kab. Bandung;\nBd. Wangisagara, Desa Karyalaksana, Kecamatan Ibun, Kab. Bandung;\nMajalaya, Desa Majalaya, Kecamatan Majalaya, Kab. Bandung;\nTegalluar, Desa Sumbersari, Kecamatan Ciparay, Kab. Bandung;\nBojongsari, Desa Bojongsari, Kecamatan Bojongsoang, Kab. Bandung;\nRancamanyar, Desa Rancamanyar, Kecamatan Baleendah, Kab. Bandung;\nNanjung, Desa Jelegong, Kecamatan Kutawaringin, Kab. Bandung;\n\nLokasi-lokasi tersebut dipilih karena selain terdapat empat titik pengamatan debit (PDA Majalaya, Sapan, Dayeuhkolot, dan Nanjung) juga penelitian mengenai habitat perairan telah banyak dilakukan di lokasi ini. ( Arif (2012), Istiqomah et al. (2021), Sunardi et al. (2012), Kartamihardja (2019)).\n\n\nCode\nlibrary(leaflet)\nleaflet() %&gt;%\n  addTiles() %&gt;%  # Add default OpenStreetMap map tiles\n  addMarkers(\n    lng=107.657602, lat=-7.208400, \n    label=\"1. Situ Cisanti\",\n    labelOptions = labelOptions(noHide = T)) %&gt;% \n  addMarkers(\n    lng=107.694908, lat=-7.179903, \n    label=\"2. Cihawuk\",\n    labelOptions = labelOptions(noHide = T)) %&gt;% \n  addMarkers(\n    lng=107.748823, lat= -7.073946, \n    label=\"3. Bd. Wangisagara\",\n    labelOptions = labelOptions(noHide = T) )%&gt;% \n  addMarkers(\n    lng=107.756565, lat= -7.0506543, \n    label=\"4. Majalaya\",\n    labelOptions = labelOptions(noHide = T) )%&gt;% \n  addMarkers(\n    lng=107.689273, lat= -6.989905, \n    label=\"5. Tegalluar\",\n    labelOptions = labelOptions(noHide = T) )%&gt;% \n  addMarkers(\n    lng=107.654809, lat= -7.007848, \n    label=\"6. Bojongsari\",\n    labelOptions = labelOptions(noHide = T) )%&gt;% \n   addMarkers(\n    lng=107.593133, lat= -6.984941, \n    label=\"7. Rancamanyar\",\n    labelOptions = labelOptions(noHide = T) )%&gt;% \n   addMarkers(\n    lng=107.535658, lat= -6.941820, \n    label=\"8. Nanjung\",\n    labelOptions = labelOptions(noHide = T))\n\n\n\n\n\nGambar 1.3.  Lokasi Tinjauan (Diadaptasi dari Sunardi et. al, 2012)"
   },
   {
     "objectID": "1_pendahuluan.html#sec-sistematika-penulisan",
     "href": "1_pendahuluan.html#sec-sistematika-penulisan",
     "title": "1  Pendahuluan",
-    "section": "7 Sistematika Penulisan",
-    "text": "7 Sistematika Penulisan\nDalam kajian ini, sistimatika pembahasan yang dilakukan adalah sebagai berikut:\n\nBab I Pendahuluan\n\nDalam Bab I menjelaskan tentang Latar Belakang yang mendasari dipilihnya penelitian ini, Masalah Penelitian, Maksud dan Tujuan, Lingkup Studi, Batasan Masalah, Lokasi Kajian serta Sistimatika Penulisan yang dilakukan untuk menyelesaikannya.\n\nBab II Tinjauan Pustaka\n\nBerisi tentang studi terdahulu yang berkaitan dengan lokasi kajian, uraian teori ataupun pedoman yang berkaitan dengan permasalahan secara teoritis yang dipakai dalam studi ini.\n\nBab III Metodologi Penelitian\n\nPada bab ini akan diuraikan metodologi yang dilaksanakan dalam penelitian ini, yang mencakup alur pikir, metode pelaksanaan kegiatan termasuk dalam pengumpulan data sampai dengan simulasi model.\n\nBab IV Analisis dan Pembahasan\n\nPada bab ini akan dibahas mengenai hasil dari pengumpulan data, analisis hidrologi dengan FDCA, analisis hidrolika, simulasi yang dilakukan menggunakan perangkat lunak HEC-RAS (untuk mendapatkan karakteristik hidrolika), tinjauan berdasarkan aturan lingkungan, dan analisa kecocokan habitat.\n\nBab V Kesimpulan Sementara\n\n\n\n\n\nAcreman, M. C., and M. J. Dunbar. 2004. “Defining Environmental River Flow Requirements  a Review.” Hydrology and Earth System Sciences 8 (5): 861–76. https://doi.org/10.5194/hess-8-861-2004.\n\n\nArif, Hasan Kamil. 2012. “KELIMPAHAN DAN KEANEKARAGAMAN IKAN DI SUNGAI CITARUM HULU,” 14.\n\n\nArthington, Angela H., Stuart E. Bunn, N. LeRoy Poff, and Robert J. Naiman. 2006. “THE CHALLENGE OF PROVIDING ENVIRONMENTAL FLOW RULES TO SUSTAIN RIVER ECOSYSTEMS.” Ecological Applications 16 (4): 1311–18. https://doi.org/10.1890/1051-0761(2006)016[1311:TCOPEF]2.0.CO;2.\n\n\nIstiqomah, Nadia, Miranti Ariyani, Kabul Fadilah, Desak Made Malini, Syifa Yolanda, Azalea Putri, and Nining Ratningsih. 2021. “Citarum River Water Pollution and Stress Responses in The Tolerant and Sensitive Fish,” June, 13. https://doi.org/https://doi.org/10.51264/inajl.v2i1.10.\n\n\nKartamihardja, Endi. 2019. “Degradasi Keanekaragaman Ikan Asli di Sungai Citarum, Jawa Barat.” Warta Iktiologi 3 (November): 1–8.\n\n\nLeigh, Catherine, Xiaodong Qu, Yuan Zhang, Weijing Kong, Wei Meng, Peter Hanington, Robert Speed, et al. 2012. “Assessment of River Health in the Liao River Basin (Taizi Sub-Catchment).” International Water Centre, June, 131.\n\n\nNurcahyo, Hadi, Indratmo Soekarno, Iwan K Hadihardaja, and Arief Rosyidie. 2016. “Hydrologic Alteration in Watershed Using Flow Duration Curve, Case Study Upper Citarum Watershed, Indonesia.” International Proceedings of Chemical, Biological and Environment Engineering Volume of IPCBEE (2016): 7. https://doi.org/10.7763/IPCBEE. 2016. V94. 24.\n\n\nSchmutz, Stefan, and Jan Sendzimir, eds. 2018. Riverine Ecosystem Management: Science for Governing Towards a Sustainable Future. Cham: Springer International Publishing. https://doi.org/10.1007/978-3-319-73250-3.\n\n\nSNI 6738:2015. 2015. “SNI 6738:2015 Perhitungan Debit Andalan Sungai Dengan Kurva Durasi Debit.”\n\n\nStamou, A., A. Polydera, G. Papadonikolaki, F. Martínez-Capel, R. Muñoz-Mas, Ch. Papadaki, S. Zogaris, M.-D. Bui, P. Rutschmann, and E. Dimitriou. 2018. “Determination of Environmental Flows in Rivers Using an Integrated Hydrological-Hydrodynamic-Habitat Modelling Approach.” Journal of Environmental Management 209 (March): 273–85. https://doi.org/10.1016/j.jenvman.2017.12.038.\n\n\nSunardi, Keukeu Kaniawati, Teguh Husodo, Desak Made Malini, and Annisa Joviani Astari. 2012. “Distribution of Fish in the Upper Citarum River: An Adaptive Response to Physico-Chemical Properties” 19: 6.\n\n\nTharme, R. E. 2003. “A Global Perspective on Environmental Flow Assessment: Emerging Trends in the Development and Application of Environmental Flow Methodologies for Rivers.” River Research and Applications 19: 397441.”\n\n\nVörösmarty, C. J., P. B. McIntyre, M. O. Gessner, D. Dudgeon, A. Prusevich, P. Green, S. Glidden, et al. 2010. “Global Threats to Human Water Security and River Biodiversity.” Nature 467 (7315): 555–61. https://doi.org/10.1038/nature09440.\n\n\nWWF. 2020. “Living Planet Report Freshwater Deepdive.” https://f.hubspotusercontent20.net/hubfs/4783129/LPR/PDFs/Living_Planet_Report_Freshwater_Deepdive.pdf."
+    "section": "1.7 Sistematika Penulisan",
+    "text": "1.7 Sistematika Penulisan\nDalam kajian ini, sistimatika pembahasan yang dilakukan adalah sebagai berikut:\n\nBab I Pendahuluan\n\nDalam Bab I menjelaskan tentang Latar Belakang yang mendasari dipilihnya penelitian ini, Masalah Penelitian, Maksud dan Tujuan, Lingkup Studi, Batasan Masalah, Lokasi Kajian serta Sistimatika Penulisan yang dilakukan untuk menyelesaikannya.\n\nBab II Tinjauan Pustaka\n\nBerisi tentang studi terdahulu yang berkaitan dengan lokasi kajian, uraian teori ataupun pedoman yang berkaitan dengan permasalahan secara teoritis yang dipakai dalam studi ini.\n\nBab III Metodologi Penelitian\n\nPada bab ini akan diuraikan metodologi yang dilaksanakan dalam penelitian ini, yang mencakup alur pikir, metode pelaksanaan kegiatan termasuk dalam pengumpulan data sampai dengan simulasi model.\n\nBab IV Analisis dan Pembahasan\n\nPada bab ini akan dibahas mengenai hasil dari pengumpulan data, analisis hidrologi dengan FDCA, analisis hidrolika, simulasi yang dilakukan menggunakan perangkat lunak HEC-RAS (untuk mendapatkan karakteristik hidrolika), tinjauan berdasarkan aturan lingkungan, dan analisa kecocokan habitat.\n\nBab V Kesimpulan Sementara\n\n\n\n\n\nAcreman, M. C., and M. J. Dunbar. 2004. “Defining Environmental River Flow Requirements  a Review.” Hydrology and Earth System Sciences 8 (5): 861–76. https://doi.org/10.5194/hess-8-861-2004.\n\n\nArif, Hasan Kamil. 2012. “KELIMPAHAN DAN KEANEKARAGAMAN IKAN DI SUNGAI CITARUM HULU,” 14.\n\n\nArthington, Angela H., Stuart E. Bunn, N. LeRoy Poff, and Robert J. Naiman. 2006. “THE CHALLENGE OF PROVIDING ENVIRONMENTAL FLOW RULES TO SUSTAIN RIVER ECOSYSTEMS.” Ecological Applications 16 (4): 1311–18. https://doi.org/10.1890/1051-0761(2006)016[1311:TCOPEF]2.0.CO;2.\n\n\nIstiqomah, Nadia, Miranti Ariyani, Kabul Fadilah, Desak Made Malini, Syifa Yolanda, Azalea Putri, and Nining Ratningsih. 2021. “Citarum River Water Pollution and Stress Responses in The Tolerant and Sensitive Fish,” June, 13. https://doi.org/https://doi.org/10.51264/inajl.v2i1.10.\n\n\nKartamihardja, Endi. 2019. “Degradasi Keanekaragaman Ikan Asli di Sungai Citarum, Jawa Barat.” Warta Iktiologi 3 (November): 1–8.\n\n\nLeigh, Catherine, Xiaodong Qu, Yuan Zhang, Weijing Kong, Wei Meng, Peter Hanington, Robert Speed, et al. 2012. “Assessment of River Health in the Liao River Basin (Taizi Sub-Catchment).” International Water Centre, June, 131.\n\n\nNurcahyo, Hadi, Indratmo Soekarno, Iwan K Hadihardaja, and Arief Rosyidie. 2016. “Hydrologic Alteration in Watershed Using Flow Duration Curve, Case Study Upper Citarum Watershed, Indonesia.” International Proceedings of Chemical, Biological and Environment Engineering Volume of IPCBEE (2016): 7. https://doi.org/10.7763/IPCBEE. 2016. V94. 24.\n\n\nSchmutz, Stefan, and Jan Sendzimir, eds. 2018. Riverine Ecosystem Management: Science for Governing Towards a Sustainable Future. Cham: Springer International Publishing. https://doi.org/10.1007/978-3-319-73250-3.\n\n\nSNI 6738:2015. 2015. “SNI 6738:2015 Perhitungan Debit Andalan Sungai Dengan Kurva Durasi Debit.”\n\n\nStamou, A., A. Polydera, G. Papadonikolaki, F. Martínez-Capel, R. Muñoz-Mas, Ch. Papadaki, S. Zogaris, M.-D. Bui, P. Rutschmann, and E. Dimitriou. 2018. “Determination of Environmental Flows in Rivers Using an Integrated Hydrological-Hydrodynamic-Habitat Modelling Approach.” Journal of Environmental Management 209 (March): 273–85. https://doi.org/10.1016/j.jenvman.2017.12.038.\n\n\nSunardi, Keukeu Kaniawati, Teguh Husodo, Desak Made Malini, and Annisa Joviani Astari. 2012. “Distribution of Fish in the Upper Citarum River: An Adaptive Response to Physico-Chemical Properties” 19: 6.\n\n\nTharme, R. E. 2003. “A Global Perspective on Environmental Flow Assessment: Emerging Trends in the Development and Application of Environmental Flow Methodologies for Rivers.” River Research and Applications 19: 397441.”\n\n\nVörösmarty, C. J., P. B. McIntyre, M. O. Gessner, D. Dudgeon, A. Prusevich, P. Green, S. Glidden, et al. 2010. “Global Threats to Human Water Security and River Biodiversity.” Nature 467 (7315): 555–61. https://doi.org/10.1038/nature09440.\n\n\nWWF. 2020. “Living Planet Report Freshwater Deepdive.” https://f.hubspotusercontent20.net/hubfs/4783129/LPR/PDFs/Living_Planet_Report_Freshwater_Deepdive.pdf."
   },
   {
     "objectID": "2_tinjauan_pustaka.html#studi-literatur",
@@ -157,8 +157,8 @@
     "objectID": "2_tinjauan_pustaka.html#sec-studi-literatur",
     "href": "2_tinjauan_pustaka.html#sec-studi-literatur",
     "title": "2  Tinjauan Pustaka",
-    "section": "1 Studi Literatur",
-    "text": "1 Studi Literatur\n\n1.1 Kerangka Pikir (Framework) {#sec-kerangka-pikir-(framework}\n\n\n1.2 Metode dan Aplikasi\n\n\n1.3 Kondisi Sungai Citarum Hulu\n\n\n1.4 Studi Kasus Mengenai Habitat\n\n\n1.5 Studi Kasus Mengenai Hidrologi"
+    "section": "2.1 Studi Literatur",
+    "text": "2.1 Studi Literatur\n\n2.1.1 Kerangka Pikir (Framework)\n\n\n2.1.2 Metode dan Aplikasi\n\n\n2.1.3 Kondisi Sungai Citarum Hulu\n\n\n2.1.4 Studi Kasus Mengenai Habitat\n\n\n2.1.5 Studi Kasus Mengenai Hidrologi"
   },
   {
     "objectID": "summary.html#saran",
@@ -222,5 +222,159 @@
     "title": "2  Tinjauan Pustaka",
     "section": "2.1 Studi Literatur",
     "text": "2.1 Studi Literatur\n\n2.1.1 Kerangka Pikir (Framework) {#sec-kerangka-pikir-(framework}\n\n\n2.1.2 Metode dan Aplikasi\n\n\n2.1.3 Kondisi Sungai Citarum Hulu\n\n\n2.1.4 Studi Kasus Mengenai Habitat\n\n\n2.1.5 Studi Kasus Mengenai Hidrologi"
+  },
+  {
+    "objectID": "tinjauan_pustaka.html#sungai-dan-das",
+    "href": "tinjauan_pustaka.html#sungai-dan-das",
+    "title": "2  Tinjauan Pustaka",
+    "section": "2.2 Sungai dan DAS",
+    "text": "2.2 Sungai dan DAS"
+  },
+  {
+    "objectID": "tinjauan_pustaka.html#analisa-curah-hujan",
+    "href": "tinjauan_pustaka.html#analisa-curah-hujan",
+    "title": "2  Tinjauan Pustaka",
+    "section": "2.3 Analisa Curah Hujan",
+    "text": "2.3 Analisa Curah Hujan"
+  },
+  {
+    "objectID": "tinjauan_pustaka.html#analisa-debit-lingkungan",
+    "href": "tinjauan_pustaka.html#analisa-debit-lingkungan",
+    "title": "2  Tinjauan Pustaka",
+    "section": "2.4 Analisa Debit Lingkungan",
+    "text": "2.4 Analisa Debit Lingkungan\n\n2.4.1 Metode Hidrologi\n\n\n2.4.2 Metode Hidrolika\n\n\n2.4.3 Metode Simulasi Habitat\n\n\n2.4.4 Metode Holistik"
+  },
+  {
+    "objectID": "tinjauan_pustaka.html#model-hidrologi-hec-hms",
+    "href": "tinjauan_pustaka.html#model-hidrologi-hec-hms",
+    "title": "2  Tinjauan Pustaka",
+    "section": "2.5 Model Hidrologi (HEC-HMS)",
+    "text": "2.5 Model Hidrologi (HEC-HMS)"
+  },
+  {
+    "objectID": "tinjauan_pustaka.html#model-hidrolika-hec-ras",
+    "href": "tinjauan_pustaka.html#model-hidrolika-hec-ras",
+    "title": "2  Tinjauan Pustaka",
+    "section": "2.6 Model Hidrolika (HEC-RAS)",
+    "text": "2.6 Model Hidrolika (HEC-RAS)"
+  },
+  {
+    "objectID": "2_tinjauan_pustaka.html#sungai-dan-das",
+    "href": "2_tinjauan_pustaka.html#sungai-dan-das",
+    "title": "2  Tinjauan Pustaka",
+    "section": "2.2 Sungai dan DAS",
+    "text": "2.2 Sungai dan DAS"
+  },
+  {
+    "objectID": "2_tinjauan_pustaka.html#analisa-curah-hujan",
+    "href": "2_tinjauan_pustaka.html#analisa-curah-hujan",
+    "title": "2  Tinjauan Pustaka",
+    "section": "2.3 Analisa Curah Hujan",
+    "text": "2.3 Analisa Curah Hujan"
+  },
+  {
+    "objectID": "2_tinjauan_pustaka.html#analisa-debit-lingkungan",
+    "href": "2_tinjauan_pustaka.html#analisa-debit-lingkungan",
+    "title": "2  Tinjauan Pustaka",
+    "section": "2.4 Analisa Debit Lingkungan",
+    "text": "2.4 Analisa Debit Lingkungan\n\n2.4.1 Metode Hidrologi\n\n\n2.4.2 Metode Hidrolika\n\n\n2.4.3 Metode Simulasi Habitat\n\n\n2.4.4 Metode Holistik"
+  },
+  {
+    "objectID": "2_tinjauan_pustaka.html#model-hidrologi-hec-hms",
+    "href": "2_tinjauan_pustaka.html#model-hidrologi-hec-hms",
+    "title": "2  Tinjauan Pustaka",
+    "section": "2.5 Model Hidrologi (HEC-HMS)",
+    "text": "2.5 Model Hidrologi (HEC-HMS)"
+  },
+  {
+    "objectID": "2_tinjauan_pustaka.html#model-hidrolika-hec-ras",
+    "href": "2_tinjauan_pustaka.html#model-hidrolika-hec-ras",
+    "title": "2  Tinjauan Pustaka",
+    "section": "2.6 Model Hidrolika (HEC-RAS)",
+    "text": "2.6 Model Hidrolika (HEC-RAS)"
+  },
+  {
+    "objectID": "6_kesimpulan_saran.html#saran",
+    "href": "6_kesimpulan_saran.html#saran",
+    "title": "6  Kesimpulan",
+    "section": "6.1 Saran",
+    "text": "6.1 Saran"
+  },
+  {
+    "objectID": "3_gambaran_umum.html#gambaran-umum-daerah-aliran-sungai",
+    "href": "3_gambaran_umum.html#gambaran-umum-daerah-aliran-sungai",
+    "title": "3  Gambaran Umum",
+    "section": "3.1 Gambaran Umum Daerah Aliran Sungai",
+    "text": "3.1 Gambaran Umum Daerah Aliran Sungai"
+  },
+  {
+    "objectID": "3_gambaran_umum.html#daerah-aliran-sungai-citarum-hulu",
+    "href": "3_gambaran_umum.html#daerah-aliran-sungai-citarum-hulu",
+    "title": "3  Gambaran Umum",
+    "section": "3.2 Daerah Aliran Sungai Citarum Hulu",
+    "text": "3.2 Daerah Aliran Sungai Citarum Hulu"
+  },
+  {
+    "objectID": "3_gambaran_umum.html#karakteristik-fisik-dasar",
+    "href": "3_gambaran_umum.html#karakteristik-fisik-dasar",
+    "title": "3  Gambaran Umum",
+    "section": "3.3 Karakteristik Fisik Dasar",
+    "text": "3.3 Karakteristik Fisik Dasar\n\n3.3.1 Topografi\n\n\n3.3.2 Iklim\n\n\n3.3.3 Hidrologi\n\n\n3.3.4 Geologi\n\n\n3.3.5 Kemiringan Lereng\n\n\n3.3.6 Jenis Tanah"
+  },
+  {
+    "objectID": "4_metodologi_penelitian.html#kerangka-alur-pikir",
+    "href": "4_metodologi_penelitian.html#kerangka-alur-pikir",
+    "title": "4  Metodologi Penelitian",
+    "section": "4.1 Kerangka Alur Pikir",
+    "text": "4.1 Kerangka Alur Pikir"
+  },
+  {
+    "objectID": "4_metodologi_penelitian.html#pengumpulan-data-sekunder",
+    "href": "4_metodologi_penelitian.html#pengumpulan-data-sekunder",
+    "title": "4  Metodologi Penelitian",
+    "section": "4.2 Pengumpulan Data Sekunder",
+    "text": "4.2 Pengumpulan Data Sekunder"
+  },
+  {
+    "objectID": "4_metodologi_penelitian.html#bagan-alir-model-hec-hms",
+    "href": "4_metodologi_penelitian.html#bagan-alir-model-hec-hms",
+    "title": "4  Metodologi Penelitian",
+    "section": "4.3 Bagan Alir Model HEC-HMS",
+    "text": "4.3 Bagan Alir Model HEC-HMS"
+  },
+  {
+    "objectID": "4_metodologi_penelitian.html#bagan-alir-model-hec-ras",
+    "href": "4_metodologi_penelitian.html#bagan-alir-model-hec-ras",
+    "title": "4  Metodologi Penelitian",
+    "section": "4.4 Bagan Alir Model HEC-RAS",
+    "text": "4.4 Bagan Alir Model HEC-RAS"
+  },
+  {
+    "objectID": "5_analisa_pembahasan.html#analisa-lengkung-durasi-debit",
+    "href": "5_analisa_pembahasan.html#analisa-lengkung-durasi-debit",
+    "title": "5  Analisa dan Pembahasan",
+    "section": "5.1 Analisa Lengkung Durasi Debit",
+    "text": "5.1 Analisa Lengkung Durasi Debit"
+  },
+  {
+    "objectID": "5_analisa_pembahasan.html#analisa-kesenjangan-debit",
+    "href": "5_analisa_pembahasan.html#analisa-kesenjangan-debit",
+    "title": "5  Analisa dan Pembahasan",
+    "section": "5.2 Analisa Kesenjangan Debit",
+    "text": "5.2 Analisa Kesenjangan Debit"
+  },
+  {
+    "objectID": "5_analisa_pembahasan.html#tinjauan-berdasarkan-aturan-lingkungan",
+    "href": "5_analisa_pembahasan.html#tinjauan-berdasarkan-aturan-lingkungan",
+    "title": "5  Analisa dan Pembahasan",
+    "section": "5.3 Tinjauan Berdasarkan Aturan Lingkungan",
+    "text": "5.3 Tinjauan Berdasarkan Aturan Lingkungan"
+  },
+  {
+    "objectID": "5_analisa_pembahasan.html#analisa-kecocokan-habitat",
+    "href": "5_analisa_pembahasan.html#analisa-kecocokan-habitat",
+    "title": "5  Analisa dan Pembahasan",
+    "section": "5.4 Analisa Kecocokan Habitat",
+    "text": "5.4 Analisa Kecocokan Habitat"
   }
 ]
