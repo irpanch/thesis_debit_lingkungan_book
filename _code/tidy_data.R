@@ -82,6 +82,10 @@ nanjung_rename <- nanjung_filter %>%
          Value=value,
          groups=station)
 
+write.csv(dy_kolot_rename,"_output/dayeuh_kolot_filter_rename.csv")
+write.csv(sapan_rename,"_output/sapan_filter_rename.csv")
+write.csv(nanjung_rename,"_output/nanjung_filter_rename.csv")
+write.csv(majalaya_rename,"_output/majalaya_filter_rename.csv")
 
 screen_flow_data(data = majalaya_rename)
 plot_data_screening(data = majalaya_rename)

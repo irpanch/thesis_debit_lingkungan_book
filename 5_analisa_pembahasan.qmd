@@ -1,6 +1,54 @@
+---
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    code-fold: true
+---
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+
+
+# load library
+library(tidyverse)
+library(lubridate)
+library(fasstr)
+library(scales)
+
+# import data (after tidying)
+dayeuh_kolot <- read_csv("_output/dayeuh_kolot_filter_rename.csv")
+sapan <- read_csv("_output/sapan_filter_rename.csv")
+nanjung <- read_csv("_output/nanjung_filter_rename.csv")
+majalaya <- read_csv("_output/majalaya_filter_rename.csv")
+```
+
 # Analisa dan Pembahasan
 
 ## Analisa Lengkung Durasi Debit
+
+Berikut merupakan gambar ketersediaan data di PDA Majalaya
+
+```{r}
+#| results: hide 
+#| label: fig-plot_screening_data
+#| fig-cap: "Plot Data hilang di PDA Majalaya"
+
+plot_data_screening(data = majalaya)
+
+```
+
+```{r}
+#| label: fig-missing_date
+#| fig-cap: "Data hilang di PDA Majalaya"
+#| results: hide
+
+plot_missing_dates(data = majalaya)
+
+
+```
 
 ## Analisa Kesenjangan Debit
 
