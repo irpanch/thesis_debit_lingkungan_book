@@ -6,6 +6,8 @@ format:
     code-fold: true
 ---
 
+# Analisa dan Pembahasan
+
 ```{r}
 #| echo: false
 #| message: false
@@ -18,14 +20,12 @@ library(lubridate)
 library(fasstr)
 library(scales)
 
-# import data (after tidying)
+# import data
 dayeuh_kolot <- read_csv("_output/dayeuh_kolot_filter_rename.csv")
 sapan <- read_csv("_output/sapan_filter_rename.csv")
 nanjung <- read_csv("_output/nanjung_filter_rename.csv")
 majalaya <- read_csv("_output/majalaya_filter_rename.csv")
 ```
-
-# Analisa dan Pembahasan
 
 ## Analisa Lengkung Durasi Debit (*Flow Duration Curve Analysis)*
 
