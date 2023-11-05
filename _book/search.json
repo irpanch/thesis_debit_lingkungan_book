@@ -172,7 +172,7 @@
     "href": "5_analisa_pembahasan.html#analisa-kecocokan-habitat",
     "title": "5  Analisa dan Pembahasan",
     "section": "5.4 Analisa Kecocokan Habitat",
-    "text": "5.4 Analisa Kecocokan Habitat"
+    "text": "5.4 Analisa Kecocokan Habitat\n\n\n\n\nSNI 6738:2015. 2015. “SNI 6738:2015 Perhitungan Debit Andalan Sungai Dengan Kurva Durasi Debit.”"
   },
   {
     "objectID": "references.html",
@@ -187,5 +187,12 @@
     "title": "5  load library",
     "section": "",
     "text": "6 Analisa dan Pembahasan"
+  },
+  {
+    "objectID": "5_analisa_pembahasan.html#analisa-lengkung-durasi-debit-flow-duration-curve-analysis",
+    "href": "5_analisa_pembahasan.html#analisa-lengkung-durasi-debit-flow-duration-curve-analysis",
+    "title": "5  Analisa dan Pembahasan",
+    "section": "5.1 Analisa Lengkung Durasi Debit (Flow Duration Curve Analysis)",
+    "text": "5.1 Analisa Lengkung Durasi Debit (Flow Duration Curve Analysis)\nPerhitungan debit andalan didasarkan pada (SNI 6738:2015 2015) Tentang Perhitungan debit andalan sungai dengan kurva durasi debit. Persamaan yang digunakan adalah probabilitas Weibull sebagai berikut:\n\nP(X\\geq)=\\frac{m}{n+1} *100\\%\n\nDimana:\nP (X ≥x : adalah probabilitas terjadinya variabel X (debit) yang sama dengan atau lebih bear x m3/s;\nm : peringkat data;\nn : jumlah data;\nX : seri data debit\nX : debit andalan jika probabilitas sesuai dengan peruntukannya, misalnya P (X ≥80%) = 0.8.\nBerikut merupakan gambar ketersediaan data di PDA Majalaya\n\n\nCode\nplot_data_screening(data = majalaya)\n\n\n\n\n\nGambar 5.1.  Plot Data hilang di PDA Majalaya\n\n\n\n\n\n\nCode\nplot_missing_dates(data = majalaya)\n\n\n\n\n\nGambar 5.2.  Data hilang di PDA Majalaya"
   }
 ]

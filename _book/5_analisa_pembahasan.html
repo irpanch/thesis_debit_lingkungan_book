@@ -54,7 +54,26 @@ div.sourceCode
 @media screen {
 pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -95,6 +114,22 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   }
 }</script>
 
+  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", function () {
+ var mathElements = document.getElementsByClassName("math");
+ var macros = [];
+ for (var i = 0; i < mathElements.length; i++) {
+  var texText = mathElements[i].firstChild;
+  if (mathElements[i].tagName == "SPAN") {
+   katex.render(texText.data, mathElements[i], {
+    displayMode: mathElements[i].classList.contains('display'),
+    throwOnError: false,
+    macros: macros,
+    fleqn: false
+   });
+}}});
+  </script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css">
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -191,7 +226,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#analisa-lengkung-durasi-debit" id="toc-analisa-lengkung-durasi-debit" class="nav-link active" data-scroll-target="#analisa-lengkung-durasi-debit"><span class="header-section-number">5.1</span> Analisa Lengkung Durasi Debit</a></li>
+  <li><a href="#analisa-lengkung-durasi-debit-flow-duration-curve-analysis" id="toc-analisa-lengkung-durasi-debit-flow-duration-curve-analysis" class="nav-link active" data-scroll-target="#analisa-lengkung-durasi-debit-flow-duration-curve-analysis"><span class="header-section-number">5.1</span> Analisa Lengkung Durasi Debit (<em>Flow Duration Curve Analysis)</em></a></li>
   <li><a href="#analisa-kesenjangan-debit" id="toc-analisa-kesenjangan-debit" class="nav-link" data-scroll-target="#analisa-kesenjangan-debit"><span class="header-section-number">5.2</span> Analisa Kesenjangan Debit</a></li>
   <li><a href="#tinjauan-berdasarkan-aturan-lingkungan" id="toc-tinjauan-berdasarkan-aturan-lingkungan" class="nav-link" data-scroll-target="#tinjauan-berdasarkan-aturan-lingkungan"><span class="header-section-number">5.3</span> Tinjauan Berdasarkan Aturan Lingkungan</a></li>
   <li><a href="#analisa-kecocokan-habitat" id="toc-analisa-kecocokan-habitat" class="nav-link" data-scroll-target="#analisa-kecocokan-habitat"><span class="header-section-number">5.4</span> Analisa Kecocokan Habitat</a></li>
@@ -218,8 +253,18 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </header>
 
-<section id="analisa-lengkung-durasi-debit" class="level2" data-number="5.1">
-<h2 data-number="5.1" class="anchored" data-anchor-id="analisa-lengkung-durasi-debit"><span class="header-section-number">5.1</span> Analisa Lengkung Durasi Debit</h2>
+<section id="analisa-lengkung-durasi-debit-flow-duration-curve-analysis" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="analisa-lengkung-durasi-debit-flow-duration-curve-analysis"><span class="header-section-number">5.1</span> Analisa Lengkung Durasi Debit (<em>Flow Duration Curve Analysis)</em></h2>
+<p>Perhitungan debit andalan didasarkan pada <span class="citation" data-cites="sni6738:20152015">(<a href="references.html#ref-sni6738:20152015" role="doc-biblioref">SNI 6738:2015 2015</a>)</span> Tentang Perhitungan debit andalan sungai dengan kurva durasi debit. Persamaan yang digunakan adalah probabilitas Weibull sebagai berikut:</p>
+<p><span class="math display">
+P(X\geq)=\frac{m}{n+1} *100\%
+</span></p>
+<p>Dimana:</p>
+<p>P (X ≥x : adalah probabilitas terjadinya variabel X (debit) yang sama dengan atau lebih bear x m<sup>3</sup>/s;</p>
+<p>m : peringkat data;</p>
+<p>n : jumlah data;</p>
+<p>X : seri data debit</p>
+<p>X : debit andalan jika probabilitas sesuai dengan peruntukannya, misalnya P (X ≥80%) = 0.8.</p>
 <p>Berikut merupakan gambar ketersediaan data di PDA Majalaya</p>
 <div class="cell">
 <details>
@@ -260,6 +305,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h2 data-number="5.4" class="anchored" data-anchor-id="analisa-kecocokan-habitat"><span class="header-section-number">5.4</span> Analisa Kecocokan Habitat</h2>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
+<div id="ref-sni6738:20152015" class="csl-entry" role="listitem">
+SNI 6738:2015. 2015. <span>“SNI 6738:2015 Perhitungan Debit Andalan Sungai Dengan Kurva Durasi Debit.”</span>
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->

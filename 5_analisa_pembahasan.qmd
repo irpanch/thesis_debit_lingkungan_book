@@ -27,7 +27,25 @@ majalaya <- read_csv("_output/majalaya_filter_rename.csv")
 
 # Analisa dan Pembahasan
 
-## Analisa Lengkung Durasi Debit
+## Analisa Lengkung Durasi Debit (*Flow Duration Curve Analysis)*
+
+Perhitungan debit andalan didasarkan pada [@sni6738:20152015] Tentang Perhitungan debit andalan sungai dengan kurva durasi debit. Persamaan yang digunakan adalah probabilitas Weibull sebagai berikut:
+
+$$
+P(X\geq x)=\frac{m}{n+1} *100\%
+$$
+
+Dimana:
+
+P (X ≥x) : adalah probabilitas terjadinya variabel X (debit) yang sama dengan atau lebih bear x m^3^/s;
+
+m : peringkat data;
+
+n : jumlah data;
+
+X : seri data debit
+
+X : debit andalan jika probabilitas sesuai dengan peruntukannya, misalnya P (X ≥80%) = 0.8.
 
 Berikut merupakan gambar ketersediaan data di PDA Majalaya
 
