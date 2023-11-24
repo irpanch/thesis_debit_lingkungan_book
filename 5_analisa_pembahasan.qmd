@@ -27,6 +27,39 @@ nanjung <- read_csv("_output/nanjung_filter_rename.csv")
 majalaya <- read_csv("_output/majalaya_filter_rename.csv")
 ```
 
+## Data Debit
+
+Dalam penelitian ini digunakan 3 (tiga) Pos Duga Air sebagai bahan kalibrasi dalam perhitungan hujan-limpasan (*rainfall-runoff*). Ketiga PDA tersebut adalah PDA Majalya, PDA Sapan, dan PDA Nanjung. Data harian dari masing-masing PDA dapat dilihat pada gambar berikut.
+
+```{r}
+#| label: fig-data_debit_all
+#| fig-cap: "Data Harian Pos Duga Air"
+plot_semua_pda <- ggplot() +
+  geom_line(data=dayeuh_kolot, aes(x=Date, y=Value,color='PDA Dayeuh Kolot'))+
+  geom_line(data=sapan, aes(x=Date, y=Value,color='PDA Sapan'))+
+  geom_line(data=nanjung, aes(x=Date, y=Value,color='PDA Nanjung'))+
+  geom_line(data=majalaya, aes(x=Date, y=Value,color='PDA Majalaya'))+
+  ggtitle("Data Debit Harian PDA Majalaya, Sapan, Dayeuhkolot, dan Nanjung")+
+  xlab(NULL)+ylab(quote(Debit(m^3/dtk)))+
+  theme(plot.title = element_text(hjust = 0.5))+
+  scale_color_manual(name='Lokasi Pos Duga Air',
+                     breaks=c('PDA Majalaya', 'PDA Sapan','PDA Dayeuh Kolot',
+                              'PDA Nanjung'),
+                     values=c('PDA Majalaya'='orange','PDA Sapan'='blue',
+                              'PDA Dayeuh Kolot'='green',  
+                              'PDA Nanjung'='purple'))+
+  theme(legend.title=element_text(size=10),
+        legend.text=element_text(size=8))+
+  theme(legend.position = c(0.88,0.8))
+
+plot_semua_pda + scale_x_date(date_labels = "%b %Y",
+                              breaks = range(dayeuh_kolot$Date) )+
+  theme(axis.text.x = element_text(angle = 0, hjust = 0.5))+
+  scale_y_continuous(expand = c(0, 0))
+```
+
+## Data Hujan
+
 ## Analisa Lengkung Durasi Debit (*Flow Duration Curve Analysis)*
 
 Perhitungan debit andalan didasarkan pada [@sni6738:20152015] Tentang Perhitungan debit andalan sungai dengan kurva durasi debit. Persamaan yang digunakan adalah probabilitas Weibull sebagai berikut:

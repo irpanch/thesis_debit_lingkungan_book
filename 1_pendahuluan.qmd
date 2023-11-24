@@ -137,20 +137,24 @@ leaflet() %>%
 
 Dalam kajian ini, sistimatika pembahasan yang dilakukan adalah sebagai berikut:
 
-a.  Bab I Pendahuluan
+-   Bab I Pendahuluan
 
 Dalam Bab I menjelaskan tentang Latar Belakang yang mendasari dipilihnya penelitian ini, Masalah Penelitian, Maksud dan Tujuan, Lingkup Studi, Batasan Masalah, Lokasi Kajian serta Sistimatika Penulisan yang dilakukan untuk menyelesaikannya.
 
-b.  Bab II Tinjauan Pustaka
+-   Bab II Tinjauan Pustaka
 
 Berisi tentang studi terdahulu yang berkaitan dengan lokasi kajian, uraian teori ataupun pedoman yang berkaitan dengan permasalahan secara teoritis yang dipakai dalam studi ini.
 
-c.  Bab III Metodologi Penelitian
+-   Bab III Gambaran Umum
+
+Pada bab ini akan diuraikan mengenai kondisi
+
+-   Bab IV Metodologi Penelitian
 
 Pada bab ini akan diuraikan metodologi yang dilaksanakan dalam penelitian ini, yang mencakup alur pikir, metode pelaksanaan kegiatan termasuk dalam pengumpulan data sampai dengan simulasi model.
 
-d.  Bab IV Analisis dan Pembahasan
+-   Bab V Analisis dan Pembahasan
 
 Pada bab ini akan dibahas mengenai hasil dari pengumpulan data, analisis hidrologi dengan FDCA, analisis hidrolika, simulasi yang dilakukan menggunakan perangkat lunak HEC-RAS (untuk mendapatkan karakteristik hidrolika), tinjauan berdasarkan aturan lingkungan, dan analisa kecocokan habitat.
 
-e.  Bab V Kesimpulan Sementara
+-   Bab VI Kesimpulan
