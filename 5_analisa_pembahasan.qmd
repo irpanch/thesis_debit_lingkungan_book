@@ -29,7 +29,7 @@ majalaya <- read_csv("_output/majalaya_filter_rename.csv")
 
 ## Data Debit
 
-Dalam penelitian ini digunakan 3 (tiga) Pos Duga Air sebagai bahan kalibrasi dalam perhitungan hujan-limpasan (*rainfall-runoff*). Ketiga PDA tersebut adalah PDA Majalya, PDA Sapan, dan PDA Nanjung. Data harian dari masing-masing PDA dapat dilihat pada gambar berikut.
+Dalam penelitian ini digunakan 3 (tiga) Pos Duga Air sebagai bahan kalibrasi dalam perhitungan hujan-limpasan (*rainfall-runoff*). Ketiga PDA tersebut adalah PDA Majalaya, PDA Sapan, dan PDA Nanjung. Data harian dari masing-masing PDA dapat dilihat pada gambar berikut.
 
 ```{r}
 #| label: fig-data_debit_all

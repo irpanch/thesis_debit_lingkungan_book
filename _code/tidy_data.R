@@ -173,16 +173,17 @@ calc_flow_percentile(data = dy_kolot_rename,
 
 plot_flow_duration(data = majalaya_rename,ignore_missing = T)
 calc_flow_percentile(data = majalaya_rename,
-                     flow_value = 5, #untuk debit "X",brp percentilenya
+                     flow_value = 0.72, #untuk debit "X",brp percentilenya
                      months = 1:12) 
 
 plot_flow_duration(data = sapan_rename)
 calc_flow_percentile(data = sapan_rename,
-                     flow_value = 5)
+                     flow_value = 1.11,
+                     months = 1:12)
 
 plot_flow_duration(data = nanjung_rename)
 calc_flow_percentile(data = nanjung_rename,
-                     flow_value = 5,
+                     flow_value = 5.04,
                      months = 1:12) 
 
 
