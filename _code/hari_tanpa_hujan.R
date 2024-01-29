@@ -3,10 +3,6 @@
 library(ggplot2)
 library(dplyr)
 library(lubridate)
-library(hydroTSM)
-library(plotly)
-library(lattice)
-require(lattice)
 library(tidyverse)
 library(tidyr)
 library(ggtext)
@@ -14,7 +10,7 @@ library(ggtext)
 # set working directory. ctrl+shift+H
 
 data <- read.csv("rekap_hujan_harian2.csv")
-View(data)
+# View(data)
 str(data)
 
 data$Date <- as.Date(data[,1],format="%d-%b-%y")
@@ -27,7 +23,6 @@ str(data)
 
 # setting batasan
 threshold <- 0
-
 
 # sta_cipanas_margamukti --------------------------------------------------
 
