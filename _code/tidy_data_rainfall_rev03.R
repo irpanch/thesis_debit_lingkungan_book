@@ -122,7 +122,7 @@ rownames(mat_rata2) <- unique(format(time(bulanan_rata2_zoo), "%Y"))
 
 # matrixplot untuk jumlah curah hujan
 print(matrixplot(mat, ColorRamp = "Precipitation",
-                 main="Jumlah Curah Hujan Bulanan Rata-Rata (mm) Sta. Cipanas")) #ganti judul kalau data hujan.
+                 main="Jumlah Curah Hujan Bulanan (mm) Sta. Cipanas")) #ganti judul kalau data hujan.
 
 # matrixplot untuk rata-rata curah hujan
 print(matrixplot(mat_rata2, ColorRamp = "Precipitation",
@@ -144,7 +144,7 @@ rownames(mat_rata2_2) <- unique(format(time(bulanan_rata2_zoo2), "%Y"))
 
 ### matrixplot untuk jumlah curah hujan
 print(matrixplot(mat_2, ColorRamp = "Precipitation",
-                 main="Jumlah Curah Hujan Bulanan Rata-Rata (mm) Sta. Dago Bengkok")) #ganti judul kalau data hujan.
+                 main="Jumlah Curah Hujan Bulanan (mm) Sta. Dago Bengkok")) #ganti judul kalau data hujan.
 
 ### matrixplot untuk rata-rata curah hujan
 print(matrixplot(mat_rata2_2, ColorRamp = "Precipitation",
@@ -166,7 +166,7 @@ rownames(mat_rata2_3) <- unique(format(time(bulanan_rata2_zoo3), "%Y"))
 
 ### matrixplot untuk jumlah curah hujan
 print(matrixplot(mat_3, ColorRamp = "Precipitation",
-                 main="Jumlah Curah Hujan Bulanan Rata-Rata (mm) Sta. Paseh")) #ganti judul kalau data hujan.
+                 main="Jumlah Curah Hujan Bulanan (mm) Sta. Paseh")) #ganti judul kalau data hujan.
 
 ### matrixplot untuk rata-rata curah hujan
 print(matrixplot(mat_rata2_3, ColorRamp = "Precipitation",
@@ -188,7 +188,7 @@ rownames(mat_rata2_4) <- unique(format(time(bulanan_rata2_zoo4), "%Y"))
 
 ### matrixplot untuk jumlah curah hujan
 print(matrixplot(mat_4, ColorRamp = "Precipitation",
-                 main="Jumlah Curah Hujan Bulanan Rata-Rata (mm) Sta. Cicalengka")) #ganti judul kalau data hujan.
+                 main="Jumlah Curah Hujan Bulanan (mm) Sta. Cicalengka")) #ganti judul kalau data hujan.
 
 ### matrixplot untuk rata-rata curah hujan
 print(matrixplot(mat_rata2_4, ColorRamp = "Precipitation",
@@ -211,7 +211,7 @@ rownames(mat_rata2_5) <- unique(format(time(bulanan_rata2_zoo5), "%Y"))
 
 ### matrixplot untuk jumlah curah hujan
 print(matrixplot(mat_5, ColorRamp = "Precipitation",
-                 main="Jumlah Curah Hujan Bulanan Rata-Rata (mm) Sta. Ciparay")) #ganti judul kalau data hujan.
+                 main="Jumlah Curah Hujan Bulanan (mm) Sta. Ciparay")) #ganti judul kalau data hujan.
 
 ### matrixplot untuk rata-rata curah hujan
 print(matrixplot(mat_rata2_5, ColorRamp = "Precipitation",
@@ -234,7 +234,7 @@ rownames(mat_rata2_6) <- unique(format(time(bulanan_rata2_zoo6), "%Y"))
 
 ### matrixplot untuk jumlah curah hujan
 print(matrixplot(mat_6, ColorRamp = "Precipitation",
-                 main="Jumlah Curah Hujan Bulanan Rata-Rata (mm) Sta. Ujung Berung")) #ganti judul kalau data hujan.
+                 main="Jumlah Curah Hujan Bulanan Sta. Ujung Berung")) #ganti judul kalau data hujan.
 
 ### matrixplot untuk rata-rata curah hujan
 print(matrixplot(mat_rata2_6, ColorRamp = "Precipitation",
@@ -256,7 +256,7 @@ rownames(mat_rata2_7) <- unique(format(time(bulanan_rata2_zoo7), "%Y"))
 
 ### matrixplot untuk jumlah curah hujan
 print(matrixplot(mat_7, ColorRamp = "Precipitation",
-                 main="Jumlah Curah Hujan Bulanan Rata-Rata (mm) Sta. Cisondari")) #ganti judul kalau data hujan.
+                 main="Jumlah Curah Hujan Bulanan (mm) Sta. Cisondari")) #ganti judul kalau data hujan.
 
 ### matrixplot untuk rata-rata curah hujan
 print(matrixplot(mat_rata2_7, ColorRamp = "Precipitation",
